@@ -1,2 +1,2 @@
-/*! For license information please see postprocess.ijabjUrSp.js.LICENSE.txt */
+/*! For license information please see postprocess.kL_yhEsyY.js.LICENSE.txt */
 Array.from(document.querySelectorAll("pr-s")).map((e=>{const t=e.getAttribute("data-type").toLowerCase();switch(t){case"sr7-module":case"rs-module":const l=document.querySelector(`${t}#${e.id}`);if(null!==l){let t;t=new MutationObserver((()=>{"hidden"!==e.style.visibility&&(t.disconnect(),e.style.visibility="hidden")})),t.observe(l,{attributes:!0,attributeFilter:["style"]})}}})),document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".pr-opt-lcp-item");null!==e&&e instanceof Element&&(e.style["font-family"]=null)}));
