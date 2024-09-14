@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66e5e7aea357a             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization\PageManager\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; class Impression extends Common { public $timestamps = null; public function ckgmycmaukqgkosk() { parent::ckgmycmaukqgkosk(); $this->oyeskqayoscwciem()->yioesawwewqaigow(IconInterface::cgaumaacsaeauwqy)->guiaswksukmgageq(__("\x49\x6d\160\x72\145\x73\x73\151\157\x6e", PR__MDL__OPTIMIZATION))->muuwuqssqkaieqge(__("\x49\x6d\160\162\145\x73\x73\x69\x6f\x6e\163", PR__MDL__OPTIMIZATION))->wiskakymeaywyeuw($this->akuociswqmoigkas())->qemeyueyiwgsokuc()->ckaeqgiaiqwsccke(50)->eesuqwkusmukgwma(); } public function ewaqwooqoqmcoomi() { $this->cquokmemekqqywgi($this->gysoeyaguiyewoes(Constants::auqoykcmsiauccao)->gswweykyogmsyawy(__("\x55\122\x4c", PR__MDL__OPTIMIZATION)))->cquokmemekqqywgi($this->yyuiuwgokmwioomq(Constants::ciywsqoeiymemsys)->gswweykyogmsyawy(__("\123\164\141\x74\165\x73", PR__MDL__OPTIMIZATION))->kesomeowemmyygey(1, Constants::uowmiwoiaoekusui, __("\105\170\143\x6c\165\144\145\144", PR__MDL__OPTIMIZATION))->kesomeowemmyygey(2, Constants::ckayguugsawsacqu, __("\x49\x6e\x63\x6c\165\144\145\144", PR__MDL__OPTIMIZATION))->eyygsasuqmommkua(Constants::uowmiwoiaoekusui)); parent::ewaqwooqoqmcoomi(); } }

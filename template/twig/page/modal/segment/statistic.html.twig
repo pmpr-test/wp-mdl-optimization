@@ -1,0 +1,29 @@
+<div class="row rules-statistics my-3{% if is_main %} main-statistics{% endif %}">
+    {% for key, item in items %}
+        <div class="rules-statistic {{ prepare_columns(loop, columns, 4) }}">
+            <div class="statistic-item statistic-{{ key|esc_attr }}">
+                <div class="statistic-container d-flex justify-content-between">
+
+                    <div class="statistic-title my-auto">
+                        {{ item.title|raw }}
+                    </div>
+
+                    <div class="statistic-count"
+                         data-key="{{ key|esc_attr }}"
+                         data-value="{{ item.value|raw }}">
+
+                        {{ item.value|number|raw }}
+                    </div>
+
+                </div>
+                {% if show_desc %}
+
+                    <div class="statistic-desc mt-3">
+                        {{ item.description|raw }}
+                    </div>
+
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

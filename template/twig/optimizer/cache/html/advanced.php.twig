@@ -1,0 +1,81 @@
+{% extends get_template('../advanced.php', _self) %}
+
+{% block use %}
+    {% for use in uses %}
+use {{ use|raw }};
+    {% endfor %}
+{% endblock %}
+
+{% block content %}
+define('PR_OPTIMIZATION_VERSION', '{{ version|raw }}');
+define('PR_OPTIMIZATION_ADVANCED_CACHE', true);
+
+function opt_advanced_cache_get_path($path) {
+
+    if (!defined('PR_ENV_SLD')) {
+        $baseConfigPath = '{{ base_config_path|raw }}';
+        if (file_exists($baseConfigPath)) {
+            require_once $baseConfigPath;
+        }
+    }
+
+    if (defined('PR_ENV_SLD')) {
+        $path = sprintf($path, PR_ENV_SLD);
+    }
+    return $path;
+}
+
+$cachePath  = opt_advanced_cache_get_path('{{ cache_path|raw }}');
+$configPath = opt_advanced_cache_get_path('{{ config_path|raw }}');
+$vendorPath = '{{ vendor_path|raw }}';
+
+$classes = [
+{%- for key, class in classes %}
+    "{{ key|namespace }}" => "{{ class }}",
+{% endfor -%}
+];
+
+$advanced404 = __DIR__ . '/advanced-404.php';
+if(file_exists($advanced404)) {
+    require_once $advanced404;
+}
+
+if (file_exists($cachePath)
+    && file_exists($configPath)) {
+
+    spl_autoload_register(static function ($class) use ($classes, $vendorPath) {
+        if (isset($classes[$class])) {
+            $file = $classes[$class];
+        } elseif (str_starts_with($class, 'Monolog\\')) {
+            $file = "{$vendorPath}/monolog/monolog/src/" . str_replace('\\', '/', $class) . '.php';
+        }elseif (str_starts_with($class, 'Detection\\')) {
+            $file = "{$vendorPath}/mobiledetect/mobiledetectlib/src/" . str_replace(['Detection\\', '\\'], ['', '/'], $class) . '.php';
+        } elseif (str_starts_with($class, 'Symfony\\')) {
+            $file = "{$vendorPath}/symfony/filesystem/Filesystem.php";
+        } elseif (str_starts_with($class, 'Psr\\Log\\')) {
+            $parts = explode('\\', $class);
+            $file = "{$vendorPath}/psr/log/src/" . end($parts) . '.php';
+        } elseif (str_starts_with($class, 'Psr\\SimpleCache\\')) {
+            $parts = explode('\\', $class);
+            $file = "{$vendorPath}/psr/simple-cache/src/" . end($parts) . '.php';
+        } else {
+            return;
+        }
+        if (file_exists($file)) {
+            require_once $file;
+        }
+    });
+
+    if (class_exists(Buffer::class)) {
+
+        $config = new Config(['path' => $configPath]);
+        new Buffer(new Test($config), $config, ['path' => $cachePath]);
+    } elseif (!defined('DONT_PERFORMANCE_OPTIMIZE')) {
+
+        define('DONT_PERFORMANCE_OPTIMIZE', true);
+    } else if (!defined('PR_OPTIMIZATION_ADVANCED_CACHE')) {
+
+        define('PR_OPTIMIZATION_ADVANCED_CACHE_PROBLEM', true);
+    }
+}
+{% endblock %}

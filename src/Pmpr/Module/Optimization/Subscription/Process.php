@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66e5e7aea357a             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Optimization\Subscription; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\Optimization\Optimization; use Pmpr\Module\Optimization\Queue; class Process extends Queue { const coeiogimesmgases = Optimization::kgswyesggeyekgmg . "\x6a\x6f\x62\137\146\145\x74\143\150\x5f\x70\x75\x72\143\150\x61\163\x65\163"; const yagmsygwcocaqmqy = Optimization::kgswyesggeyekgmg . "\x6a\157\142\x5f\146\145\164\143\150\137\163\x75\x62\163\143\x72\x69\160\x74\x69\157\x6e\x5f\x64\141\164\x61"; public function ikcgmcycisiccyuc() { parent::ikcgmcycisiccyuc(); $this->group .= "\x73\x75\x62\x73\143\x72\x69\160\x74\x69\x6f\x6e"; } public function gqgseoowsgqemmgu() : int { return $this->ooosmymooksgmyos(strtotime("\155\x69\x64\156\x69\147\150\x74"), DAY_IN_SECONDS, self::yagmsygwcocaqmqy); } public function gposkkqsquyqiguk($suaemuyiacqyugsm = 1) : int { $ksaameoqigiaoigg = 0; if ($this->wkoqewmcaeoycyic($suaemuyiacqyugsm)) { goto myoicgcuugciueis; } $ksaameoqigiaoigg = $this->ksicwcssyugsigka(time(), self::coeiogimesmgases, [$suaemuyiacqyugsm]); myoicgcuugciueis: return $ksaameoqigiaoigg; } public function wkoqewmcaeoycyic($suaemuyiacqyugsm) : bool { return $this->exists([Constants::cmooywkooekaakwk => self::coeiogimesmgases, Constants::okeuagwgwkmiokac => [$suaemuyiacqyugsm], Constants::ciywsqoeiymemsys => Constants::sgoswgskyiiwkyuo]); } }

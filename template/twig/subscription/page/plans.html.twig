@@ -1,0 +1,63 @@
+<div class="row gutter-2">
+    {% for plan in plans %}
+        <div class="col-12 col-md-6 col-lg-3">
+
+            {% set plan_specifications %}
+                {% if plan.specifications is not empty %}
+                    <ul class="m-0">
+                        {% for specification in plan.specifications %}
+                            <li class="d-flex justify-content-between {% if not loop.last %}mb-2{% else %}m-0{% endif %}">
+                                <div>
+                                    {{ render_icon(specification.icon, {class: 'icon-sm icon-primary mr-2'}) }}
+                                    {{ specification.title|raw }}
+                                </div>
+                                <strong>{{ specification.value|raw }}</strong>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endset %}
+
+            {% set plan_usages %}
+                {% if plan.usages is not empty %}
+                    <div class="text-center mb-2 font-weight-bold">{{ services_cost }}</div>
+                    <ul class="m-0">
+                        {% for usage in plan.usages %}
+                            <li class="d-flex justify-content-between {% if not loop.last %}mb-2{% else %}m-0{% endif %}">
+                                <div>
+                                    {{ render_icon(usage.icon, {class: 'icon-sm icon-primary mr-2'}) }}
+                                    {{ usage.title|raw }}
+                                </div>
+                                <strong>{{ usage.value|raw }}</strong>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endset %}
+
+            {% set plan_features %}
+                {% if plan.features is not empty %}
+                    <ul class="m-0">
+                        {% for feature in plan.features %}
+                            <li class="{% if not loop.last %}mb-2{% else %}m-0{% endif %}">{{ feature|raw }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endset %}
+
+            {% set footer %}
+                <div class="mb-3 font-17 font-weight-bold text-center">{{ plan.price_html|raw }}</div>
+                {{ plan.button|raw }}
+            {% endset %}
+
+            {{ render_backend_card({
+                header: plan.title,
+                footer: footer,
+                content: [plan_specifications, plan_usages, plan_features],
+                card_class: (plan.active ? 'active' : ''),
+                header_class: 'text-center',
+                content_class: 'text-center'
+            }) }}
+        </div>
+    {% endfor %}
+</div>

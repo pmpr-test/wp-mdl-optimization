@@ -1,0 +1,10 @@
+<div class="row my-5 justify-content-center">
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="d-flex justify-content-between flex-column flex-md-row pr-action">
+            {% for item in items %}
+                {{ render_if_has_content(item.element, item.attrs, item.title) }}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,29 @@
+{% extends get_template('../../advanced.php', _self) %}
+
+{% block content %}
+$constant = 'NOTFOUND_CACHE_PATH';
+if (defined('PR_MULTISITE') && PR_MULTISITE
+    && defined('PR_ENV_SLD') && PR_ENV_SLD) {
+
+    $constant = strtoupper(PR_ENV_SLD . '_' . $constant);
+}
+if (defined($constant)) {
+
+    $slugFilePath = constant($constant) . '/404.txt';
+
+    if (@is_readable($slugFilePath)) {
+
+        $urls = file($slugFilePath, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+        if (is_array($urls) && in_array($_SERVER['REQUEST_URI'], $urls)) {
+
+            $HTMLFilePath = constant($constant) . '/404.html';
+            if (@file_exists($HTMLFilePath)) {
+
+                http_response_code(404);
+                die(file_get_contents($HTMLFilePath));
+            }
+        }
+    }
+}
+{% endblock %}

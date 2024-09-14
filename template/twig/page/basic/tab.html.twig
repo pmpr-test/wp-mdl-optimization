@@ -1,0 +1,11 @@
+<div class="">
+    {{ list_table.views()|raw }}
+    <form class="pr-list-form" method="get">
+        <input type="hidden" name="page" value="{{ page|esc_attr }}">
+        <input type="hidden" name="tab" value="{{ tab|esc_attr }}">
+        {{ list_table.search_box(search_text, name)|raw }}
+        {{ list_table.display()|raw }}
+    </form>
+    <div id="ajax-response"></div>
+    <br class="clear"/>
+</div>

@@ -1,0 +1,25 @@
+<table class="table mb-0 table-borderless table-striped">
+    <thead>
+    <tr>
+        <th></th>
+        <th colspan="{{ plans|length|esc_attr }}">{{ subscription_plans_title|raw }}</th>
+    </tr>
+    <tr>
+        <th></th>
+        {% for plan in plans %}
+            <th>{{ plan.title|raw }}</th>
+        {% endfor %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for name, action in actions %}
+        <tr>
+            <th>{{ action|raw }}</th>
+            {% for plan in plans %}
+                <td class="text-center">{{ coin_mask|format(plan[name ~ '_usage']|number)|raw }}</td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+

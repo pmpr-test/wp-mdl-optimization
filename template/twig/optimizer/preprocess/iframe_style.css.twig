@@ -1,0 +1,24 @@
+iframe#calc_metrics {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    -ms-zoom: 0.01;
+    -o-transform: scale(0.01);
+    -moz-transform: scale(0.01);
+    -webkit-transform: scale(0.01);
+    -webkit-transform-origin : 0 0;
+    -moz-transform-origin : 0 0;
+    -o-transform-origin : 0 0;
+    -ms-transform-origin : 0 0;
+    transform-origin : 0 0;
+}
+iframe#calc_metrics.desktop {
+    width: {{ resolutions.desktop.width|raw }}px;
+    height: {{ resolutions.desktop.height|raw }}px;
+}
+
+iframe#calc_metrics.mobile {
+    width: {{ resolutions.mobile.width|raw }}px;
+    height: {{ resolutions.mobile.height|raw }}px;
+}

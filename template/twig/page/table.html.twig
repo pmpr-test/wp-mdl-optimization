@@ -1,0 +1,44 @@
+<table class="stripe hover row-border order-column cell-border"
+       data-toggle="table"
+       data-pagination-h-align="left"
+       data-pagination="true">
+    {% set header %}
+        <tr>
+            <th class="row-number">#</th>
+            {% for title in titles %}
+                <th scope="col">{{ title|raw }}</th>
+            {% endfor %}
+        </tr>
+    {% endset %}
+    <thead class="thead-light">{{ header|raw }}</thead>
+    {% for item in items %}
+        <tr>
+            <input type="hidden" name="page_data[{{ loop.index - 1 }}][type]" value="{{ item.type|esc_attr }}">
+            <input type="hidden" name="page_data[{{ loop.index - 1 }}][target]" value="{{ item.target|esc_attr }}">
+            <th class="row-number">
+                {{ loop.index|raw }}
+            </th>
+            {% for key, title in titles %}
+                {% if item[key] is defined %}
+                    <td data-key="{{ key|esc_attr }}">
+                        {{ item[key]|raw }}
+                    </td>
+                {% endif %}
+            {% endfor %}
+
+            {% if actions is defined
+                and actions is not empty %}
+                <td>
+                    {% for action in actions %}
+                        <button href="#" {{ action.attrs|parse_attrs|raw }}>
+                            {{ get_icon(action.icon)|raw }}
+                            <span>{{ action.title|raw }}</span>
+                        </button>
+                    {% endfor %}
+                </td>
+            {% endif %}
+        </tr>
+    {% endfor %}
+    <tfoot>{{ header|raw }}</tfoot>
+</table>
+

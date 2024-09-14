@@ -1,0 +1,39 @@
+<div class="wrap">
+    <h1 class="wp-heading-inline">{{ args.page_title|raw }}</h1>
+    <hr class="wp-header-end">
+    <div class="pr-panel-segment px-0 is-active is-full bg-transparent">
+        <div class="row">
+            <div class="col-12 col-xl-3 mb-3">
+
+                <div class="row">
+                    <div class="col-12 col-md-4 col-xl-12">
+                        {% set quick_actions_html %}
+                            {% for action in quick_actions %}
+                                <div class="{% if not loop.last %}mb-3{% endif %}">
+                                    {{ action|raw }}
+                                </div>
+                            {% endfor %}
+                        {% endset %}
+                        {{ render_backend_card({
+                            header: quick_action_title,
+                            content: [quick_actions_html],
+                            card_class: 'mb-4'
+                        }) }}
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-12">
+                        {{ render_backend_card({
+                            header: subscription.title,
+                            content: subscription.table,
+                        }) }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-9">
+                {{ render_backend_card({
+                    header: report.title,
+                    content: report.panel,
+                }) }}
+            </div>
+        </div>
+    </div>
+</div>

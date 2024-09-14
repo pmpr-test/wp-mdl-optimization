@@ -1,0 +1,12 @@
+{% for guide in guides %}
+    <h4 class="mb-2 mt-0 pb-1 border-bottom">{{ guide.title|raw }}</h4>
+    <ul class="my-1{% if not loop.last %} mb-3{% endif %}">
+        {% for item in guide.items %}
+            <li class="mb-2 d-flex font-12">
+                <div class="mr-2 lh-sm">{{ loop.index|number }}.</div>
+                <div class="lh-sm">{{ item|raw }}</div>
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+

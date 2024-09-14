@@ -1,0 +1,32 @@
+<div class="row gutter-2">
+    {% for extra_coin in extra_coins %}
+        <div class="col-12 col-md-6 col-lg-3">
+
+            {% set extra_coin_features %}
+                {% if extra_coin.features is not empty %}
+                    <ul class="m-0">
+                        {% for feature in extra_coin.features %}
+                            <li class="d-flex justify-content-between {% if not loop.last %}mb-2{% else %}m-0{% endif %}">
+                                {{ feature.title|raw }}
+                                <strong>{{ feature.value|raw }}</strong>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endset %}
+
+            {% set footer %}
+                <div class="mb-3 font-17 font-weight-bold text-center">{{ extra_coin.price_html|raw }}</div>
+                {{ extra_coin.button|raw }}
+            {% endset %}
+
+            {{ render_backend_card({
+                header: extra_coin.title,
+                footer: footer,
+                content: [extra_coin_features],
+                header_class: 'text-center',
+                content_class: 'text-center'
+            }) }}
+        </div>
+    {% endfor %}
+</div>

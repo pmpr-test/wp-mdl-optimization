@@ -1,0 +1,21 @@
+<div class="row">
+    {% for card in cards %}
+        <div class="col-12 col-md-6 col-lg-4">
+            {{ render_backend_card({
+                header: card.title,
+                content: card.table,
+                header_class: 'text-center'
+            }) }}
+        </div>
+    {% endfor %}
+    <div class="col-12 col-lg-4">
+        {% set card_content %}
+            {{ sync|raw }}
+        {% endset %}
+        {{ render_backend_card({
+            header: quick_action_title,
+            content: [card_content],
+            content_class: 'text-center'
+        }) }}
+    </div>
+</div>
