@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66eb25af783f1             |
+    |             66ebf66918980             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Buffer; use Pmpr\Module\Optimization\Optimization; use Pmpr\Module\Optimization\Optimizer\Common; abstract class Engine extends Common { const scskcyisyowcuagq = Optimization::kgswyesggeyekgmg . "\x62\165\146\146\145\162\137\160\x72\x6f\x63\x65\163\163"; public final function miasamwyaiagioug($ekiuyucoiagmscgy, int $sqqewmoeaekuyyas = 10) : self { $this->aqaqisyssqeomwom(self::scskcyisyowcuagq, $ekiuyucoiagmscgy, $sqqewmoeaekuyyas); return $this; } public function uakokyiygeukkwyq($sociqikgoyemqaac) { return preg_replace("\57\x3c\41\55\55\x28\x2e\52\51\55\x2d\x3e\x2f\125\x69\163", '', $sociqikgoyemqaac); } }
+ namespace Pmpr\Module\Optimization\Optimizer\Buffer; use Pmpr\Module\Optimization\Optimization; use Pmpr\Module\Optimization\Optimizer\Common; abstract class Engine extends Common { const scskcyisyowcuagq = Optimization::kgswyesggeyekgmg . "\x62\165\x66\146\145\x72\137\x70\162\157\x63\145\163\x73"; public final function miasamwyaiagioug($ekiuyucoiagmscgy, int $sqqewmoeaekuyyas = 10) : self { $this->aqaqisyssqeomwom(self::scskcyisyowcuagq, $ekiuyucoiagmscgy, $sqqewmoeaekuyyas); return $this; } public function uakokyiygeukkwyq($sociqikgoyemqaac) { return preg_replace("\57\x3c\x21\x2d\x2d\x28\x2e\52\x29\55\x2d\x3e\x2f\125\151\x73", '', $sociqikgoyemqaac); } }
