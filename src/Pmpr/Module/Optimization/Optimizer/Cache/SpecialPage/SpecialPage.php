@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f18c2e9c9db             |
+    |             66f18cb37259d             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Cache\SpecialPage; use Pmpr\Module\Optimization\Optimizer\Cache\SpecialPage\Notfound\Notfound; use Pmpr\Module\Optimization\Optimizer\Cache\SpecialPage\Search\Search; class SpecialPage extends Common { public function mameiwsayuyquoeq() { Search::symcgieuakksimmu(); Setting::symcgieuakksimmu(); Notfound::symcgieuakksimmu(); } }
