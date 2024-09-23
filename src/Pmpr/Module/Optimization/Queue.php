@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f1377d8db9a             |
+    |             66f13d321859c             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization; use Pmpr\Common\Foundation\Process\Queue as BaseClass; class Queue extends BaseClass { public function ikcgmcycisiccyuc() { parent::ikcgmcycisiccyuc(); $this->group = Optimization::kgswyesggeyekgmg; } }

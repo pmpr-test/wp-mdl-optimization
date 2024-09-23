@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f1377d8db9a             |
+    |             66f13d321859c             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\HTML\Cleanup; class Cleanup extends Common { public function mameiwsayuyquoeq() { if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto cycyaqqawmwiywwe; } Engine::symcgieuakksimmu(); goto ckowiuagwmsqmiqc; cycyaqqawmwiywwe: Setting::symcgieuakksimmu(); ckowiuagwmsqmiqc: } }

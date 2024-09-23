@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66f1377d8db9a             |
+    |             66f13d321859c             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Cache\VirtualBrowser\Purge; use Pmpr\Module\Optimization\Optimizer\Cache\Purge\Purge as BaseClass; class Purge extends BaseClass { public function mameiwsayuyquoeq() { if (!$this->caokeucsksukesyo()->owicscwgeuqcqaig()->mcgoysmkqsqooceq()) { goto uqcwyyiykmwygeau; } Ajax::symcgieuakksimmu(); uqcwyyiykmwygeau: } public function uykissogmuaaocsg() : Engine { return Engine::symcgieuakksimmu(); } }
