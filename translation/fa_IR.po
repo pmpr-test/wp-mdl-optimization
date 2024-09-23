@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-09-23 14:14+0330\n"
-"PO-Revision-Date: 2024-09-23 14:16+0330\n"
+"POT-Creation-Date: 2024-09-23 22:58+0330\n"
+"PO-Revision-Date: 2024-09-23 22:59+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -79,12 +79,12 @@ msgid "Enable Development Mode"
 msgstr "فعال کردن حالت توسعه"
 
 #: src/Pmpr/Module/Optimization/Dashboard/Page.php:74
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:661
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:672
 msgid "Are you sure about purge cache?"
 msgstr "آیا از پاکسازی کش صفحات مطمئن هستید؟"
 
 #: src/Pmpr/Module/Optimization/Dashboard/Page.php:75
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:662
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:673
 msgid ""
 "Preload is enable and after purge cache, regenerate cache file started "
 "automatically."
@@ -93,16 +93,16 @@ msgstr ""
 
 #: src/Pmpr/Module/Optimization/Dashboard/Page.php:89
 msgid ""
-"Disabling Development Mode turns on caching for your site. Are you sure you want to "
-"continue?"
+"Disabling Development Mode turns on caching for your site. Are you sure you want "
+"to continue?"
 msgstr ""
 "فعال کردن حالت توسعه قابلیت کش را برای سایت شما غیر فعال خواهد کرد. آیا از انجام "
 "این کار مطمئن هستید؟"
 
 #: src/Pmpr/Module/Optimization/Dashboard/Page.php:90
 msgid ""
-"Enabling Development Mode turns off caching for your site. Are you sure you want to "
-"continue?"
+"Enabling Development Mode turns off caching for your site. Are you sure you want "
+"to continue?"
 msgstr ""
 "فعال کردن حالت توسعه قابلیت کش را برای سایت شما غیر فعال خواهد کرد. آیا از انجام "
 "این کار مطمئن هستید؟"
@@ -137,16 +137,16 @@ msgstr "افزایش سرعت مجدد"
 msgid "Are you sure about reOptimize this page?"
 msgstr "آیا در مورد بهینه سازی مجدد این صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:31
+#: src/Pmpr/Module/Optimization/Optimization.php:32
 msgid "Optimization"
 msgstr "افزایش سرعت"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:121
+#: src/Pmpr/Module/Optimization/Optimization.php:134
 #, php-format
 msgid "Optimization config file %s generated in %s"
 msgstr "فایل پیکربندی %s در %s ایجاد شد"
 
-#: src/Pmpr/Module/Optimization/Optimization.php:127
+#: src/Pmpr/Module/Optimization/Optimization.php:140
 msgid "Configuration"
 msgstr "پیکربندی"
 
@@ -159,17 +159,17 @@ msgid "Manage pages's scripts"
 msgstr "مدیرت اسکریپ‌های صفحات"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:35
-#: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:38
+#: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:39
 msgid "Load By Delay"
 msgstr "بارگیری با تاخیر"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:39
+#: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:36
 msgid ""
-"Load JavaScript by delay eliminates render-blocking JS on your site and can improve "
-"load time."
+"Load JavaScript by delay eliminates render-blocking JS on your site and can "
+"improve load time."
 msgstr ""
-"بارگیری جاوااسکریپت به صورت تاخیری برای افزایش سرعت، بارگیری جاوااسکریپت‌های مسدود "
-"کننده رندر render-blocking صفحه را به تعویق می‌اندازد."
+"بارگیری جاوااسکریپت به صورت تاخیری برای افزایش سرعت، بارگیری جاوااسکریپت‌های "
+"مسدود کننده رندر render-blocking صفحه را به تعویق می‌اندازد."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:40
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:66
@@ -198,11 +198,11 @@ msgstr "فایل‌های مستثنی از بارگیری تاخیری"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:50
 msgid ""
-"Specify URLs or patters that can identify inline or JavaScript files to be excluded "
-"from delay."
+"Specify URLs or patters that can identify inline or JavaScript files to be "
+"excluded from delay."
 msgstr ""
-"پیوندها یا الگوهای که می‌توانند فایل‌های جاوااسکریپت یا اسکریپت‌های Inline را شناسایی "
-"کنند،تا از فرایند تاخیر در بارگیری مستثنی شوند را تعیین کنید."
+"پیوندها یا الگوهای که می‌توانند فایل‌های جاوااسکریپت یا اسکریپت‌های Inline را "
+"شناسایی کنند،تا از فرایند تاخیر در بارگیری مستثنی شوند را تعیین کنید."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:53
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:97
@@ -231,13 +231,13 @@ msgstr "پیش بارگیر کش"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:38
 msgid ""
-"A tool to cache pages before the first request for each page, if the preloader is "
-"disabled, the first request for each page will cause that page to be cached, which "
-"may not be a pleasant experience for users."
+"A tool to cache pages before the first request for each page, if the preloader "
+"is disabled, the first request for each page will cause that page to be cached, "
+"which may not be a pleasant experience for users."
 msgstr ""
-"ابزاری برای کش شدن صفحات پیش از اولین درخواست برای هر صفحه، در صورت غیر فعال بودن "
-"پیش بارگیر، اولین درخواست برای هر صفحه منجر به کش شدن آن صفحه خواهد شد، که ممکن است "
-"با تجربه خوشایندی برای کاربران همراه نباشد."
+"ابزاری برای کش شدن صفحات پیش از اولین درخواست برای هر صفحه، در صورت غیر فعال "
+"بودن پیش بارگیر، اولین درخواست برای هر صفحه منجر به کش شدن آن صفحه خواهد شد، که "
+"ممکن است با تجربه خوشایندی برای کاربران همراه نباشد."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Preload/Setting.php:44
 msgid "Active for All Pages"
@@ -353,8 +353,8 @@ msgstr "کش HTML (با فشرده سازی Gzip)"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/HTML/Setting.php:68
 msgid ""
-"Gzip compression for cache (improves performance along with increasing the number "
-"of inode usage)"
+"Gzip compression for cache (improves performance along with increasing the "
+"number of inode usage)"
 msgstr "فشرده سازی Gzip برای کش (بهبود سرعت همراه با افزایش مصرف تعداد inode)"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/SpecialPage/Notfound/Setting.php:20
@@ -449,7 +449,8 @@ msgid "ATF & BTF"
 msgstr "ATF و BTF"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:43
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:884
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:42
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:895
 msgid "Pattern Cache"
 msgstr "کش الگو"
 
@@ -458,6 +459,7 @@ msgid "Pattern-level cache management"
 msgstr "مدیریت کش در سطح الگو"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:49
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:43
 msgid "Styles"
 msgstr "استایل‌ها"
 
@@ -527,20 +529,21 @@ msgstr "مستثنی کردن استایل‌ بدون استفاده"
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:94
 msgid "Specify URLs or patters of CSS files to be excluded from remove."
 msgstr ""
-"پیوندها یا الگوهای فایل‌های سی اس اس (CSS) که می‌خواهید از فرایند حذف مستثنی شوند را "
-"تعیین کنید."
+"پیوندها یا الگوهای فایل‌های سی اس اس (CSS) که می‌خواهید از فرایند حذف مستثنی شوند "
+"را تعیین کنید."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:104
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:44
 msgid "Delay Style Load"
 msgstr "تاخیر در بارگیری استایل"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:105
 msgid ""
-"Improves performance by delaying the loading of CSS files until user interaction (e."
-"g. scroll, click)."
+"Improves performance by delaying the loading of CSS files until user interaction "
+"(e.g. scroll, click)."
 msgstr ""
-"با تأخیر در بارگیری فایل‌های استایل تا تعامل کاربر (به عنوان مثال پیمایش ، کلیک) ، "
-"عملکرد را بهبود می بخشد."
+"با تأخیر در بارگیری فایل‌های استایل تا تعامل کاربر (به عنوان مثال پیمایش ، "
+"کلیک) ، عملکرد را بهبود می بخشد."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:111
 msgid "Purge Pattern Cache"
@@ -549,11 +552,11 @@ msgstr "پاک‌ سازی کش الگو"
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:113
 #, php-format
 msgid ""
-"Select the events that lead to clearing the pattern cache. Re-creating the template "
-"cache %s."
+"Select the events that lead to clearing the pattern cache. Re-creating the "
+"template cache %s."
 msgstr ""
-"رخدادهایی که منجر به پاک سازی کش الگو می‌شوند را انتخاب کنید. بازسازی مجدد کش الگو "
-"%s است."
+"رخدادهایی که منجر به پاک سازی کش الگو می‌شوند را انتخاب کنید. بازسازی مجدد کش "
+"الگو %s است."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:114
 msgid "requires a coin payment"
@@ -619,17 +622,43 @@ msgstr "مقدار WP_CACHE به false تغییر کرد"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/CDN/Cloudflare.php:42
 msgid ""
-"Cloudflare's HTTP/2 Server Push is incompatible with the features of Remove Unused "
-"CSS. We strongly recommend disabling it."
+"Cloudflare's HTTP/2 Server Push is incompatible with the features of Remove "
+"Unused CSS. We strongly recommend disabling it."
 msgstr ""
+
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:32
+msgid "Elementor"
+msgstr "المنتور"
+
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:36
+msgid "Excluded Styles form Delay"
+msgstr "استایل‌های مستثنی از باگیری با تاخیر"
+
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:37
+msgid "Main Style"
+msgstr "استایل المنتوری اصلی صفحه"
+
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:39
+#: src/Pmpr/Module/Optimization/Optimizer/Media/LazyLoad/Setting.php:51
+#, php-format
+msgid "This functionality is available when %s is enabled."
+msgstr "این قابلیت زمانی در دسترس است که %s  فعال باشد."
+
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/Setting.php:25
+msgid "Plugins"
+msgstr "افزونه‌ها"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Setting.php:18
 msgid "Extension"
-msgstr "گسترش"
+msgstr "اکستنشن"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Setting.php:20
-msgid "Modules, covers, plugins and themes Configuration"
-msgstr "پیکربندی ماژول‌ها، کاورها، افزونه‌ها و پوسته‌ها"
+msgid "Modules, covers, plugins..."
+msgstr "ماژول‌ها،‌ کاور‌ها،‌ افزونه‌ها..."
+
+#: src/Pmpr/Module/Optimization/Optimizer/Extension/Theme/Setting.php:25
+msgid "Themes"
+msgstr "پوسته‌ها"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:49
 msgid "Cleanup"
@@ -687,8 +716,8 @@ msgstr "حذف کتابخانه گوتنبرگ"
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:80
 msgid "Disable gutenberg block library on the front end when not logged in."
 msgstr ""
-"غیر فعال کردن کتابخانه گوتنربگ در بخش نمایشی سایت و زمانی که کاربر وارد حساب کاربری "
-"نشده است."
+"غیر فعال کردن کتابخانه گوتنربگ در بخش نمایشی سایت و زمانی که کاربر وارد حساب "
+"کاربری نشده است."
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:84
 msgid "Disable Password Strength Meter"
@@ -696,11 +725,11 @@ msgstr "غیر فعال کردن بررسی پسورد"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:85
 msgid ""
-"Remove WordPress and WooCommerce password strength meter scripts from non essential "
-"pages."
+"Remove WordPress and WooCommerce password strength meter scripts from non "
+"essential pages."
 msgstr ""
-"حذف اسکریپت‌های بررسی قوی بودن پسورد مربوط به وردپرس و ووکامرس، در صفحاتی که نیازی "
-"به این قابلیت ندارند."
+"حذف اسکریپت‌های بررسی قوی بودن پسورد مربوط به وردپرس و ووکامرس، در صفحاتی که "
+"نیازی به این قابلیت ندارند."
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:89
 msgid "Remove HTTP Protocol"
@@ -736,7 +765,8 @@ msgid ""
 "This is good for security purposes as well, since it hides the WordPress version "
 "you're using."
 msgstr ""
-"پنهان کردن نسخه وردپرس خود علاوه بر پاک‌ سازی،‌ می‌تواند کاربرد امنیتی نیز داشته باشد."
+"پنهان کردن نسخه وردپرس خود علاوه بر پاک‌ سازی،‌ می‌تواند کاربرد امنیتی نیز داشته "
+"باشد."
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:115
 msgid "Remove wlwmanifest Link"
@@ -744,8 +774,8 @@ msgstr "حذف پیوند wlwmanifest"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:116
 msgid ""
-"If you do not use Windows Live Writer to edit your blog contents, then it's safe to "
-"remove this."
+"If you do not use Windows Live Writer to edit your blog contents, then it's safe "
+"to remove this."
 msgstr ""
 "اگر برای ویرایش محتوای سایت خود از Windows Live Writer استفاده نمی‌کنید، می‌توانید "
 "این گزینه را فعال کنید."
@@ -759,18 +789,19 @@ msgid ""
 "Are you using SEO friendly URLs and do not need the default WordPress shortlink? "
 "you can remove this."
 msgstr ""
-"اگر از لینک‌های SEO Friendly استفاده می‌کنید و نیازی به شورت لینک پیشفرض خود وردپرس "
-"ندارید،‌ می‌توانید این گزینه را فعال کنید."
+"اگر از لینک‌های SEO Friendly استفاده می‌کنید و نیازی به شورت لینک پیشفرض خود "
+"وردپرس ندارید،‌ می‌توانید این گزینه را فعال کنید."
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:125
 msgid "Remove REST API"
 msgstr "حذف REST API"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:126
-msgid "Are you accessing your content through endpoints? If not, you can remove this."
+msgid ""
+"Are you accessing your content through endpoints? If not, you can remove this."
 msgstr ""
-"اگر برای دسترسی به محتوای سایت‌ خود از طریق REST API استفاده نمی‌کنید، می‌توانید این "
-"گزینه را فعال کنید."
+"اگر برای دسترسی به محتوای سایت‌ خود از طریق REST API استفاده نمی‌کنید، می‌توانید "
+"این گزینه را فعال کنید."
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Error/Setting.php:32
 msgid "Errors"
@@ -779,7 +810,8 @@ msgstr "خطاها"
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Error/Setting.php:33
 msgid ""
 "Solving problems that can have a negative effect on the performance of your site."
-msgstr "حل مشکلاتی که در صورت بروز، می‌توانند اثر بدی روی عملکرد سایت شما داشته باشند."
+msgstr ""
+"حل مشکلاتی که در صورت بروز، می‌توانند اثر بدی روی عملکرد سایت شما داشته باشند."
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Error/Setting.php:37
 msgid "Add Blank Favicon"
@@ -799,8 +831,8 @@ msgstr "کوتاه‌سازی"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Minify/Setting.php:34
 msgid ""
-"It can improve page loading by decrease html size, with minify html, inline scripts "
-"and inline styles."
+"It can improve page loading by decrease html size, with minify html, inline "
+"scripts and inline styles."
 msgstr ""
 "با کاهش حجم HTML از طریق کوتاه‌سازی HTML، اسکریپت‌های inline و استایل‌های inline "
 "می‌توان سرعت باگیری صفحات را افزایش داد."
@@ -848,8 +880,8 @@ msgstr "ابعاد تصویر"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Media/ImageDimension/Setting.php:28
 msgid ""
-"Add missing width and height attributes to images. Helps prevent layout shifts(CLS) "
-"and improve the reading experience for your visitors."
+"Add missing width and height attributes to images. Helps prevent layout "
+"shifts(CLS) and improve the reading experience for your visitors."
 msgstr ""
 "ویژگی‌های عرض و ارتفاع را به تصاویر بدون ابعاد اضافه و به جلوگیری از تغییر "
 "چیدمان(CLS) و بهبود تجربه خواندن برای بازدیدکنندگان کمک می‌کند."
@@ -865,12 +897,12 @@ msgstr "لیزی لود"
 #: src/Pmpr/Module/Optimization/Optimizer/Media/LazyLoad/Setting.php:34
 msgid ""
 "It can improve actual and perceived loading time as images, iframes, and videos "
-"will be loaded only as they enter (or about to enter) the viewport and reduces the "
-"number of HTTP requests."
+"will be loaded only as they enter (or about to enter) the viewport and reduces "
+"the number of HTTP requests."
 msgstr ""
-"این گزینه باعث می‌شود زمان بارگیری تصاویر، آی‌فریم‌ها و ویدیو‌ها به صورت بارگیری هنگام "
-"قرار گرفتن در قسمت قابل مشاهده صفحه، به شکل واقعی و محسوس کاهش یابد. همچنین (تعداد "
-"درخواست‌های) HTTP نیز کاهش خواهد یافت."
+"این گزینه باعث می‌شود زمان بارگیری تصاویر، آی‌فریم‌ها و ویدیو‌ها به صورت بارگیری "
+"هنگام قرار گرفتن در قسمت قابل مشاهده صفحه، به شکل واقعی و محسوس کاهش یابد. "
+"همچنین (تعداد درخواست‌های) HTTP نیز کاهش خواهد یافت."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Media/LazyLoad/Setting.php:37
 msgid "Enable Lazy Load"
@@ -892,11 +924,6 @@ msgstr "آی فریم و ویدیو"
 msgid "Bypass on above the fold elements"
 msgstr "به بالای خط فولد اعمال نشود"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Media/LazyLoad/Setting.php:51
-#, php-format
-msgid "This functionality is available when %s is enabled."
-msgstr "این قابلیت زمانی در دسترس است که %s  فعال باشد."
-
 #: src/Pmpr/Module/Optimization/Optimizer/Media/LazyLoad/Setting.php:54
 #: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Setting.php:29
 msgid "Optimize Google Pagespeed"
@@ -915,11 +942,11 @@ msgstr "رسانه"
 msgid "Optimize image, vide and ..."
 msgstr "بهینه‌سازی تصویر، ویدیو و ..."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:158
+#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:162
 msgid "Updated successfully."
 msgstr "با موفقیت بروزرسانی شد."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:201
+#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:205
 msgid "LCP item can not be empty."
 msgstr "عنصر LCP نمی‌تواند خالی باشد."
 
@@ -1134,11 +1161,11 @@ msgstr "برای همه صفحات فعال"
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:1214
 msgid ""
-"This situation, despite the advantage of shorter cache creation time for all pages, "
-"is associated with high inode consumption."
+"This situation, despite the advantage of shorter cache creation time for all "
+"pages, is associated with high inode consumption."
 msgstr ""
-"این وضعیت، علیرغم مزیت کوتاهتر شدن زمان ایجاد کش برای همه صفحات، با مصرف زیاد تعداد "
-"inode همراه است."
+"این وضعیت، علیرغم مزیت کوتاهتر شدن زمان ایجاد کش برای همه صفحات، با مصرف زیاد "
+"تعداد inode همراه است."
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:1218
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:1229
@@ -1151,11 +1178,11 @@ msgstr "برای صفحات پر بازدید فعال"
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:1225
 msgid ""
-"This situation will create the cache of the most visited pages as soon as possible, "
-"while consuming a reasonable number of inodes."
+"This situation will create the cache of the most visited pages as soon as "
+"possible, while consuming a reasonable number of inodes."
 msgstr ""
-"این وضعیت، در عین مصرف معقول تعداد inode، کش صفحات پر بازدید را در اولین زمان ممکن "
-"ایجاد خواهد کرد."
+"این وضعیت، در عین مصرف معقول تعداد inode، کش صفحات پر بازدید را در اولین زمان "
+"ممکن ایجاد خواهد کرد."
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:1235
 msgid "inactive"
@@ -1166,8 +1193,8 @@ msgid ""
 "This situation is accompanied by a longer cache creation time for all pages, "
 "despite the low consumption of inodes."
 msgstr ""
-"این وضعیت علیرغم مصرف کم تعداد inode، با طولانی‌تر شدن زمان ایجاد کش برای همه صفحات "
-"همراه است."
+"این وضعیت علیرغم مصرف کم تعداد inode، با طولانی‌تر شدن زمان ایجاد کش برای همه "
+"صفحات همراه است."
 
 #: src/Pmpr/Module/Optimization/PageManager/Engine.php:1240
 msgid "activate"
@@ -1349,11 +1376,11 @@ msgstr "حذف"
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:211
 #, php-format
 msgid ""
-"Pages that are marked as important pages (%s) will always be displayed at the top "
-"of the list."
+"Pages that are marked as important pages (%s) will always be displayed at the "
+"top of the list."
 msgstr ""
-"صفحاتی که به عنوان صفحه مهم (%s) علامتگذاری می‌شوند، همیشه در ابتدای لیست نمایش داده "
-"خواهند شد."
+"صفحاتی که به عنوان صفحه مهم (%s) علامتگذاری می‌شوند، همیشه در ابتدای لیست نمایش "
+"داده خواهند شد."
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:215
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:274
@@ -1389,11 +1416,11 @@ msgstr "بله، صفحه مهم شود"
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:266
 #, php-format
 msgid ""
-"From the pages that are marked as speed test candidates (%s), according to the %s, "
-"the page speed test will be taken."
+"From the pages that are marked as speed test candidates (%s), according to the "
+"%s, the page speed test will be taken."
 msgstr ""
-"از صفحاتی که به عنوان کاندید انجام تست سرعت (%s) علامتگذاری می‌شوند، با توجه به %s، "
-"تست سرعت پیج اسپید گرفته می‌شود."
+"از صفحاتی که به عنوان کاندید انجام تست سرعت (%s) علامتگذاری می‌شوند، با توجه به "
+"%s، تست سرعت پیج اسپید گرفته می‌شود."
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:269
 msgid "Applied Settings"
@@ -1431,7 +1458,8 @@ msgstr "%s صفحه"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:326
 msgid "Deactivating the page will prevent optimization of that page, are you sure?"
-msgstr "غیر فعال سازی یک صفحه جلوی بهینه سازی آن صفحه را خواهد گرفت،‌آیا مطمئن هستید؟"
+msgstr ""
+"غیر فعال سازی یک صفحه جلوی بهینه سازی آن صفحه را خواهد گرفت،‌آیا مطمئن هستید؟"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:327
 msgid "Activating the page will resume optimizing that page, do you continue?"
@@ -1470,9 +1498,9 @@ msgstr "عنوان صفحه منتخب"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:554
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:559
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:642
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:649
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:653
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:660
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:664
 msgid "Re-Optimize"
 msgstr "بهینه سازی مجدد"
 
@@ -1632,117 +1660,117 @@ msgstr "فیلتر نوشته‌ها"
 msgid "Taxonomy Terms"
 msgstr "ترم‌های تکسنومی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:543
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:554
 msgid "Please select a special page."
 msgstr "لطفا یک صفحه خاص را انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:549
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:560
 msgid ""
 "This special page already selected in another pattern and you can not select it."
 msgstr ""
-"این صفحه خاص پیش از این درالگوی دیگری انتخاب شده است و شما نمی‌توانید دوباره آن را "
-"انتخاب کنید."
+"این صفحه خاص پیش از این درالگوی دیگری انتخاب شده است و شما نمی‌توانید دوباره آن "
+"را انتخاب کنید."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:599
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:610
 msgid "Inactive options are matched and selected with previous patterns."
 msgstr "گزینه‌های غیر فعال، با الگوهای قبلی منطبق و انتخاب شده‌اند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:623
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:634
 msgid "Setup Pattern"
 msgstr "راه‌اندازی الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:629
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:633
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:640
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:644
 msgid "Setup"
 msgstr "راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:659
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:667
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:671
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:670
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:678
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:682
 msgid "Purge Pages Cache"
 msgstr "پاکسازی کش صفحات"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:692
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:706
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:703
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:717
 msgid "Pattern Manual Optimize"
 msgstr "بهینه‌سازی دستی الگو"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:696
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:707
 msgid "Optimize Content"
 msgstr "محتوای بهینه‌سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:702
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:713
 msgid "Optimize"
 msgstr "بهینه سازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:726
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:737
 msgid "Are you sure about re-optimize page?"
 msgstr "آیا از بهینه سازی مجدد صفحه مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:731
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:742
 msgid "Candidate Page Link"
 msgstr "لینک صفحه کاندید"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:735
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:746
 msgid ""
-"The pages of each template must have the same design and layout. In the meantime, "
-"some pages with a slight difference have more diverse visual elements and therefore "
-"are a more suitable choice as a candidate page for that template."
+"The pages of each template must have the same design and layout. In the "
+"meantime, some pages with a slight difference have more diverse visual elements "
+"and therefore are a more suitable choice as a candidate page for that template."
 msgstr ""
 "صفحات هر الگو باید طراحی و چینش یکسان داشته باشند. در این میان، برخی از صفحات با "
 "اختلاف جزئی، از المان‌های بصری متنوع‌تری برخوردارند و لذا انتخاب مناسب‌تری به عنوان "
 "صفحه کاندید آن الگو هستند."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:736
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:747
 msgid ""
-"If left blank, a random page will be selected from among the elected pages of this "
-"template."
+"If left blank, a random page will be selected from among the elected pages of "
+"this template."
 msgstr ""
-"در صورتی که خالی رها کنید، یک صفحه تصادفی از بین صفحات منتخب این الگو انتخاب خواهد "
-"شد."
+"در صورتی که خالی رها کنید، یک صفحه تصادفی از بین صفحات منتخب این الگو انتخاب "
+"خواهد شد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:764
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:775
 #, php-format
 msgid "It may take about %s for all elected pages to reach the maximum speed."
 msgstr "رسیدن همه صفحات منتخب به سقف سرعت، ممکن است %s به طول بیانجامد."
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:796
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:807
 msgid "Unlimited"
 msgstr "نامحدود"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:804
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:815
 msgid "Elected Pages Count"
 msgstr "تعداد صفحات منتخب"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:805
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:932
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:816
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:943
 #, php-format
 msgid "%s Pages"
 msgstr "%s صفحه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:808
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:819
 msgid "Setup Cost"
 msgstr "هزینه راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:809
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:820
 #, php-format
 msgid "%s Coins"
 msgstr "%s سکه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:812
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:823
 msgid "Setup Time"
 msgstr "مدت زمان راه‌اندازی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:813
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:824
 #, php-format
 msgid "%s Seconds"
 msgstr "%s ثانیه"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:885
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:896
 msgid "Latest Run Status"
 msgstr "وضعیت آخرین اجرا"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:886
+#: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:897
 msgid "Elected Pages Cache"
 msgstr "کش صفحات منتخب"
 
@@ -1868,8 +1896,8 @@ msgid ""
 "Some patterns are not cached, which results in pages associated with those "
 "templates not being cached."
 msgstr ""
-"کش برخی از الگو‌ها ایجاد نشده است، که در نتیجه کش صفحات مرتبط با آن الگو‌ها نیز ایجاد "
-"نخواهد شد."
+"کش برخی از الگو‌ها ایجاد نشده است، که در نتیجه کش صفحات مرتبط با آن الگو‌ها نیز "
+"ایجاد نخواهد شد."
 
 #: src/Pmpr/Module/Optimization/PageManager/PageManager.php:67
 msgid "Go to Patterns"
@@ -2000,13 +2028,13 @@ msgstr "با ابزار پیج اسپید گوگل"
 #, php-format
 msgid ""
 "Access to the pages of your site is blocked by Google to perform the page speed "
-"test and you will encounter the error %s. To solve the problem, check the firewall "
-"settings on program, your site's server or cloud service (Cloudflare) and make the "
-"necessary access."
+"test and you will encounter the error %s. To solve the problem, check the "
+"firewall settings on program, your site's server or cloud service (Cloudflare) "
+"and make the necessary access."
 msgstr ""
-"دسترسی به صفحات سایت شما از طرف گوگل برای انجام تست پیج اسپید مسدود است و با خطای "
-"%s مواجه می‌شود. برای رفع مشکل، تنظیمات فایروال را در برنامه، سرور یا سرویس ابری "
-"(کلود فلیر) سایت خود بررسی کرده و دسترسی لازم را ایجاد کنید."
+"دسترسی به صفحات سایت شما از طرف گوگل برای انجام تست پیج اسپید مسدود است و با "
+"خطای %s مواجه می‌شود. برای رفع مشکل، تنظیمات فایروال را در برنامه، سرور یا سرویس "
+"ابری (کلود فلیر) سایت خود بررسی کرده و دسترسی لازم را ایجاد کنید."
 
 #: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:43
 msgid "Fix access to pagespeed test"
@@ -2019,9 +2047,9 @@ msgid ""
 "the Google client to the pages of your site and fixed the 403 Forbidden error, "
 "click on the button below."
 msgstr ""
-"در صورتی که با ایجاد یا ویرایش Security Rule مناسب در برنامه، فایروال سرور یا سرویس "
-"ابری سایت، دسترسی لازم از سوی کلاینت گوگل به صفحات سایت خود را فراهم و خطای 403 "
-"Forbidden را رفع کرده‌اید، روی دکمه زیر کلیک کنید."
+"در صورتی که با ایجاد یا ویرایش Security Rule مناسب در برنامه، فایروال سرور یا "
+"سرویس ابری سایت، دسترسی لازم از سوی کلاینت گوگل به صفحات سایت خود را فراهم و "
+"خطای 403 Forbidden را رفع کرده‌اید، روی دکمه زیر کلیک کنید."
 
 #: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:48
 msgid "I created access"
@@ -2041,8 +2069,8 @@ msgid ""
 "Performing a speed test automatically with the Google PageSpeed tool, for those "
 "selected pages that are marked as speed test candidates."
 msgstr ""
-"انجام تست سرعت به صورت خودکار با ابزار پیج اسپید گوگل،‌ برای آن دسته از صفحات منتخب "
-"که به عنوان کاندید تست سرعت علامت گذاری شده‌اند."
+"انجام تست سرعت به صورت خودکار با ابزار پیج اسپید گوگل،‌ برای آن دسته از صفحات "
+"منتخب که به عنوان کاندید تست سرعت علامت گذاری شده‌اند."
 
 #: src/Pmpr/Module/Optimization/PageManager/SpeedTest/Setting.php:71
 msgid "Do Speed Test"
@@ -2118,12 +2146,12 @@ msgstr "همگام سازی داده‌ها"
 #: src/Pmpr/Module/Optimization/Subscription/Engine.php:170
 msgid ""
 "The data associated with your account is updated with the server at regular "
-"intervals. To ensure the latest update, you can update your account data with the "
-"server now."
+"intervals. To ensure the latest update, you can update your account data with "
+"the server now."
 msgstr ""
 "داده‌های مرتبط با حساب کاربری شما، در بازه‌های زمانی منظم، با سرور به روز می‌شوند. "
-"برای اطمینان از آخرین به‌روزرسانی، میتوانید همین حالا داده‌های مرتبط با حساب کاربری "
-"خود را با سرور به روز کنید."
+"برای اطمینان از آخرین به‌روزرسانی، میتوانید همین حالا داده‌های مرتبط با حساب "
+"کاربری خود را با سرور به روز کنید."
 
 #: src/Pmpr/Module/Optimization/Subscription/Engine.php:201
 msgid "Unknown"
@@ -2229,8 +2257,8 @@ msgstr "پلن‌های اشتراک"
 #: src/Pmpr/Module/Optimization/Subscription/Engine.php:526
 msgid "There is not data to show you, please refresh page or contact us."
 msgstr ""
-"در حال حاضر اطلاعاتی برای نمایش وجود ندارد، لطفا صفحه را رفرش کنید و یا با ما تماس "
-"بگیرید."
+"در حال حاضر اطلاعاتی برای نمایش وجود ندارد، لطفا صفحه را رفرش کنید و یا با ما "
+"تماس بگیرید."
 
 #: src/Pmpr/Module/Optimization/Subscription/Model/Purchase.php:16
 msgid "Purchase"
@@ -2500,8 +2528,8 @@ msgid ""
 "In %s page based on %s and %s remove previous name servers of %s and replace "
 "cloudflare name savers and click on %s"
 msgstr ""
-"در صفحه %s طبق آیتم‌های شماره %s و %s نیم سرور‌های قبلی دامنه %s را حذف و نیم سرورهای "
-"کلودفلیر را جایگزین کرده و روی دکمه %s کلیک کنید"
+"در صفحه %s طبق آیتم‌های شماره %s و %s نیم سرور‌های قبلی دامنه %s را حذف و نیم "
+"سرورهای کلودفلیر را جایگزین کرده و روی دکمه %s کلیک کنید"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:96
 msgid "Do this by logging in to your domain registrar panel"
@@ -2517,13 +2545,13 @@ msgstr "در صفحه %s روی %s کلیک کنید"
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:106
 #, php-format
 msgid ""
-"Click on %s in profile menu and in %s tab in %s segment, click on %s related to %s"
-"%s. In %s modal enter your password and click on %s and copy key text for use on "
-"next steps"
+"Click on %s in profile menu and in %s tab in %s segment, click on %s related to "
+"%s%s. In %s modal enter your password and click on %s and copy key text for use "
+"on next steps"
 msgstr ""
-"در منوی کاربری بر روی %s کلیک کرده و در برگه %s در بخش %s روی دکمه %s مربوط به %s "
-"کلیک کنید.%s در پنجره %s رمز خود را وارد کرده و بر روی دکمه‌ی %s کلیک کنید و متن "
-"کلید را برای استفاده در ادامه کار کپی کنید"
+"در منوی کاربری بر روی %s کلیک کرده و در برگه %s در بخش %s روی دکمه %s مربوط به "
+"%s کلیک کنید.%s در پنجره %s رمز خود را وارد کرده و بر روی دکمه‌ی %s کلیک کنید و "
+"متن کلید را برای استفاده در ادامه کار کپی کنید"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:119
 msgid "Wordpress Admin"
@@ -2574,7 +2602,8 @@ msgid "Domain Name"
 msgstr "تعانام دامنه"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:145
-msgid "If your domain name is not in the list, reload the WordPress admin panel page"
+msgid ""
+"If your domain name is not in the list, reload the WordPress admin panel page"
 msgstr ""
 "در صورتی که نام دامنه شما در لیست وجود نداشت صفحه پنل ادمین وردپرس را رفرش کنید"
 
@@ -2602,7 +2631,8 @@ msgstr ""
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:188
 msgid "The API token extrapolated from your Cloudflare account."
 msgstr ""
-"کلید رمزی وب سرویس کلودفلیر که ‌می‌توانید آن را در حساب کاربری خود در کلودفلیر بیابید."
+"کلید رمزی وب سرویس کلودفلیر که ‌می‌توانید آن را در حساب کاربری خود در کلودفلیر "
+"بیابید."
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:192
 msgid "Zone ID"
@@ -2646,8 +2676,10 @@ msgid "Disable Cloudflare's Development Mode"
 msgstr "غیر فعال کردن حالت توسعه کلودفلیر"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:250
-msgid "Cloudflare's Development Mode seems to be enabled, do you want to disable it?"
-msgstr "به نظر می‌رسد حالت توسعه کلودفلیر فعال است،‌ آیا می‌خواهید آن را غیر فعال کنید؟"
+msgid ""
+"Cloudflare's Development Mode seems to be enabled, do you want to disable it?"
+msgstr ""
+"به نظر می‌رسد حالت توسعه کلودفلیر فعال است،‌ آیا می‌خواهید آن را غیر فعال کنید؟"
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:292
 msgid "Cloudflare Cache-Control max-age"
@@ -2657,8 +2689,8 @@ msgstr "مقدار Cache-control max-age مربوط به کلودفلیر"
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:303
 msgid "Don't touch if you don't know what is it. Must be greater than zero."
 msgstr ""
-"اگر اطلاعات کافی در مورد این گزینه‌را ندارید لطفا آن را تغییر ندهید. مقدار این گزینه "
-"باید بیشتر از صفر باشد."
+"اگر اطلاعات کافی در مورد این گزینه‌را ندارید لطفا آن را تغییر ندهید. مقدار این "
+"گزینه باید بیشتر از صفر باشد."
 
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:295
 #, php-format
@@ -2691,6 +2723,9 @@ msgstr "هزینه خدمات"
 msgid "The cost of providing services for subscribers with different panels."
 msgstr "هزینه ارائه خدمات برای مشتریان با پلن های مختلف."
 
+#~ msgid "Modules, covers, plugins and themes Configuration"
+#~ msgstr "پیکربندی ماژول‌ها، کاورها، افزونه‌ها و پوسته‌ها"
+
 #~ msgid "Exclude Defer Files"
 #~ msgstr "فایل‌های مستثنی از باگیری تاخیری"
 
@@ -2703,8 +2738,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ "Improves performance by delaying the loading of JavaScript files until user "
 #~ "interaction (e.g. scroll, click)."
 #~ msgstr ""
-#~ "با تأخیر در بارگیری فایل‌های جاوااسکریپت تا تعامل کاربر (به عنوان مثال پیمایش ، "
-#~ "کلیک) ، عملکرد را بهبود می بخشد."
+#~ "با تأخیر در بارگیری فایل‌های جاوااسکریپت تا تعامل کاربر (به عنوان مثال "
+#~ "پیمایش ، کلیک) ، عملکرد را بهبود می بخشد."
 
 #~ msgid "Terms Filter"
 #~ msgstr "فیلتر ترم‌ها"
@@ -2758,11 +2793,11 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "شاخص‌ %s"
 
 #~ msgid ""
-#~ "Extraction of element of %s in order to optimize, using the traffic of the site "
-#~ "pages according to the following options."
+#~ "Extraction of element of %s in order to optimize, using the traffic of the "
+#~ "site pages according to the following options."
 #~ msgstr ""
-#~ "استخراج عنصر %s به منظور بهینه‌سازی، با استفاده از ترافیک صفحات سایت و با توجه به "
-#~ "تنظیمات زیر انجام می‌شود."
+#~ "استخراج عنصر %s به منظور بهینه‌سازی، با استفاده از ترافیک صفحات سایت و با توجه "
+#~ "به تنظیمات زیر انجام می‌شود."
 
 #~ msgid "Extraction Metrics"
 #~ msgstr "استخراج عناصر کلیدی"
@@ -2862,16 +2897,17 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "سایت شما"
 
 #~ msgid ""
-#~ "Pages that are marked as important pages will always be displayed at the top of "
-#~ "the list."
+#~ "Pages that are marked as important pages will always be displayed at the top "
+#~ "of the list."
 #~ msgstr ""
-#~ "صفحاتی که به عنوان صفحه مهم علامتگذاری می‌شوند، همیشه در ابتدای لیست نمایش داده "
-#~ "خواهند شد."
+#~ "صفحاتی که به عنوان صفحه مهم علامتگذاری می‌شوند، همیشه در ابتدای لیست نمایش "
+#~ "داده خواهند شد."
 
 #~ msgid ""
-#~ "By making a page important it's show at top of list and it is always in front of "
-#~ "your eyes."
-#~ msgstr "با مهم کردن صفحه، در بالای لیست نمایش داده می‌شود و همیشه جلوی چشمان شماست."
+#~ "By making a page important it's show at top of list and it is always in front "
+#~ "of your eyes."
+#~ msgstr ""
+#~ "با مهم کردن صفحه، در بالای لیست نمایش داده می‌شود و همیشه جلوی چشمان شماست."
 
 #~ msgid "Are you sure about it?"
 #~ msgstr "آیا در مورد آن مطمئن هستید؟"
@@ -2977,18 +3013,20 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "غیر فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
 
 #~ msgid ""
-#~ "Disable cloudflare cache can speed down your website. Are you sure you want to "
-#~ "continue?"
+#~ "Disable cloudflare cache can speed down your website. Are you sure you want "
+#~ "to continue?"
 #~ msgstr ""
-#~ "غیر فعال کردن کش کلودفلیر می‌تواند باعث کاهش سرعت سایت‌تان شود. آیا از انجام این "
-#~ "کار مطمئن هستید؟"
+#~ "غیر فعال کردن کش کلودفلیر می‌تواند باعث کاهش سرعت سایت‌تان شود. آیا از انجام "
+#~ "این کار مطمئن هستید؟"
 
 #~ msgid "Disable"
 #~ msgstr "غیرفعال"
 
-#~ msgid "Temporarily bypass cloudflare cache. See changes to your site in realtime."
+#~ msgid ""
+#~ "Temporarily bypass cloudflare cache. See changes to your site in realtime."
 #~ msgstr ""
-#~ "معلق کردن کش کلودفلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت لحظه‌ای."
+#~ "معلق کردن کش کلودفلیر به صورت موقت، به منظور مشاهده تغییرات سایت به صورت "
+#~ "لحظه‌ای."
 
 #~ msgid "Enable cloudflare cache functionality for all pages and asset."
 #~ msgstr "فعال کردن قابلیت کش کلودفلیر برای تمامی صفحات و منابع استاتیکی."
@@ -3021,18 +3059,18 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "غیرفعال"
 
 #~ msgid ""
-#~ "Simple and variable products have differences in the way they are displayed, so "
-#~ "they need to define different patterns."
+#~ "Simple and variable products have differences in the way they are displayed, "
+#~ "so they need to define different patterns."
 #~ msgstr ""
 #~ "محصولات ساده و متغییر تفاوت هایی در نحوه نمایش دارند، بنابراین نیازمند تعریف "
 #~ "الگو‌های متفاوتی هستند."
 
 #~ msgid ""
-#~ "Products that have a gallery are displayed differently than products that only "
-#~ "have a featured image, so they need to define different patterns."
+#~ "Products that have a gallery are displayed differently than products that "
+#~ "only have a featured image, so they need to define different patterns."
 #~ msgstr ""
-#~ "محصولاتی که دارای گالری هستند متفاوت از محصولاتی که فقط دارای تصویر شاخص هستند "
-#~ "نمایش داده می‌شوند، بنابراین نیامند تعریف الگو‌های مجزا هستند."
+#~ "محصولاتی که دارای گالری هستند متفاوت از محصولاتی که فقط دارای تصویر شاخص "
+#~ "هستند نمایش داده می‌شوند، بنابراین نیامند تعریف الگو‌های مجزا هستند."
 
 #~ msgid "Preload Pages"
 #~ msgstr "پیش بارگیری صفحات"
@@ -3044,10 +3082,11 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "تنها فایل‌های HTML را پاک‌سازی کن"
 
 #~ msgid ""
-#~ "Purge only the cached HTML pages instead of the whole Cloudflare cache (asset + "
-#~ "pages)."
+#~ "Purge only the cached HTML pages instead of the whole Cloudflare cache (asset "
+#~ "+ pages)."
 #~ msgstr ""
-#~ "به جای پاک‌سازی کل کش کلودفلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک کن."
+#~ "به جای پاک‌سازی کل کش کلودفلیر (شامل منابع استاتیکی و HTML)، فقط HTML را پاک "
+#~ "کن."
 
 #~ msgid "There is not page rule to delete"
 #~ msgstr "هیچ قاعده‌ای برای حذف وجود ندارد"
@@ -3059,13 +3098,13 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "فعال‌سازی پیش بارگیری‌"
 
 #~ msgid ""
-#~ "Active (improves performance in mobile along with increasing the number of inode "
-#~ "usage)"
+#~ "Active (improves performance in mobile along with increasing the number of "
+#~ "inode usage)"
 #~ msgstr "فعال (بهبود سرعت در موبایل همراه با افزایش مصرف تعداد inode)"
 
 #~ msgid ""
-#~ "Inactive (reducing the number of inode usage along with downfall performance in "
-#~ "mobile)"
+#~ "Inactive (reducing the number of inode usage along with downfall performance "
+#~ "in mobile)"
 #~ msgstr "غیر فعال (کاهش مصرف تعداد inode همراه با افت سرعت در موبایل)"
 
 #, fuzzy
@@ -3261,27 +3300,28 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "آیتم‌"
 
 #~ msgid ""
-#~ "The pages selected in this section are completely excluded from the acceleration "
-#~ "process."
+#~ "The pages selected in this section are completely excluded from the "
+#~ "acceleration process."
 #~ msgstr ""
 #~ "صفحاتی که در این قسمت انتخاب می شوند، به طور کامل از فرآیند افزایش سرعت کنار "
 #~ "گذاشته می شوند."
 
 #~ msgid "The Global API Key extrapolated from your Cloudflare account."
 #~ msgstr ""
-#~ "کلید وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر بیابید."
+#~ "کلید وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر "
+#~ "بیابید."
 
 #~ msgid "The API Token extrapolated from your Cloudflare account."
 #~ msgstr ""
-#~ "کلید رمزی وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود فلیر "
-#~ "بیابید."
+#~ "کلید رمزی وب سرویس کلود فلیر که ‌می‌توانید آن را در حساب کاربری خود در کلود "
+#~ "فلیر بیابید."
 
 #~ msgid ""
 #~ "Select the domain for which you want to enable the cache and click on Update "
 #~ "settings."
 #~ msgstr ""
-#~ "دامنه‌ای که می‌خواهید کش برای آن فعال شود را انتخاب کنید و تنظیمات را به روز رسانی "
-#~ "کنید."
+#~ "دامنه‌ای که می‌خواهید کش برای آن فعال شود را انتخاب کنید و تنظیمات را به روز "
+#~ "رسانی کنید."
 
 #~ msgid "Select a Domain Name"
 #~ msgstr "انتخاب یک نام دامنه"
@@ -3317,14 +3357,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid "Modules"
 #~ msgstr "ماژول‌ها"
 
-#~ msgid "Plugins"
-#~ msgstr "افزونه‌ها"
-
 #~ msgid "Covers"
 #~ msgstr "کاورها"
-
-#~ msgid "Themes"
-#~ msgstr "پوسته‌ها"
 
 #~ msgid "You are out of the budget"
 #~ msgstr "بودجه شما تمام شده است"
@@ -3346,15 +3380,16 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "مشکلی در فرآیند افزودن صفحه وجود دارد، لطفا دوباره امتحان کنید."
 
 #~ msgid ""
-#~ "Sorry you are out of budget, can not change this page status to active. charge "
-#~ "your license from Settings > Dashboard > License"
+#~ "Sorry you are out of budget, can not change this page status to active. "
+#~ "charge your license from Settings > Dashboard > License"
 #~ msgstr ""
-#~ "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر دهید. "
-#~ "از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
+#~ "متاسفانه بودجه شما تمام شده است، نمی‌توانید وضعیت این صفحه را به فعال تغییر "
+#~ "دهید. از قسمت تنظیمات > داشبورد > لایسنس حساب خود را شارژ کنید"
 
 #~ msgid "Require parameter not found, reload page and try again."
 #~ msgstr ""
-#~ "پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگیری مجدد کنید و دوباره امتحان کنید."
+#~ "پارامتر‌های ضروری یافت نشدند، لطفا صفحه را بارگیری مجدد کنید و دوباره امتحان "
+#~ "کنید."
 
 #~ msgid "missing parameter, request is not valid."
 #~ msgstr "پارامتر ضروری وجود ندارد، درخواست شما معتبر نیست."
@@ -3369,7 +3404,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "قاعده بی تاثیر"
 
 #~ msgid "effectless rule is detected, please change or remove it."
-#~ msgstr "یک قاعده بی تاثیر مشاهده شد، لطفا قاعده مورد نظر را حذف و یا تغییر دهید."
+#~ msgstr ""
+#~ "یک قاعده بی تاثیر مشاهده شد، لطفا قاعده مورد نظر را حذف و یا تغییر دهید."
 
 #~ msgid "from"
 #~ msgstr "از"
@@ -3390,8 +3426,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "قاعده خالی"
 
 #~ msgid ""
-#~ "A empty rule type detected, please fill or remove group of empty rule type and "
-#~ "try again."
+#~ "A empty rule type detected, please fill or remove group of empty rule type "
+#~ "and try again."
 #~ msgstr ""
 #~ "یک قاعده خالی یافت شد، لطفا قاعده خالی را حذف یا پر کنید و دوباره امتحان کنید."
 
@@ -3403,8 +3439,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #~ msgid "A duplicate rule detected, please merge conditions or remove the rule."
 #~ msgstr ""
-#~ "یک قاعده تکراری یافت شده، لطفا مقادیر را با هم ترکیب کنید یا قاعده تکراری را حذف "
-#~ "کنید."
+#~ "یک قاعده تکراری یافت شده، لطفا مقادیر را با هم ترکیب کنید یا قاعده تکراری را "
+#~ "حذف کنید."
 
 #, fuzzy
 #~| msgid "Duplicate Rule"
@@ -3450,7 +3486,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "صفحات سطح ۱"
 
 #~ msgid ""
-#~ "%s optimization apply automatically to all pages without the need for a budget."
+#~ "%s optimization apply automatically to all pages without the need for a "
+#~ "budget."
 #~ msgstr ""
 #~ "افزایش سرعت %s بدون نیاز به بودجه و به طور خودکار به همه صفحات اعمال می‌شود."
 
@@ -3535,8 +3572,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ "Removed page logs history completely removed from database. no change on page "
 #~ "content."
 #~ msgstr ""
-#~ "تاریخچه افزایش سرعت صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. محتوای "
-#~ "صفحه بدون تغییر باقی خواهند ماند."
+#~ "تاریخچه افزایش سرعت صفحه حذف شده به طور کامل از پایگاه داده پاک خواهد شد. "
+#~ "محتوای صفحه بدون تغییر باقی خواهند ماند."
 
 #~ msgid "Remove Page"
 #~ msgstr "حذف صفحه"
@@ -3554,11 +3591,11 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "فرآیند افزایش سرعت بر روی صفحات غیر فعال، موقتاً متوقف می‌شود."
 
 #~ msgid ""
-#~ "Optimization process permanently stops on pages with ignored status, but you may "
-#~ "see previous logs."
+#~ "Optimization process permanently stops on pages with ignored status, but you "
+#~ "may see previous logs."
 #~ msgstr ""
-#~ "فرآیند افزایش سرعت بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده برای "
-#~ "صفحات دیگر آزاد می‌شود."
+#~ "فرآیند افزایش سرعت بر روی صفحات رها شده، متوقف شده و بودجه آن برای استفاده "
+#~ "برای صفحات دیگر آزاد می‌شود."
 
 #~ msgid "Ignore"
 #~ msgstr "رهاسازی"
@@ -3592,7 +3629,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid ""
 #~ "An error occurred while cleaning the cache. Please check log file for more "
 #~ "details."
-#~ msgstr "مشکلی در فرآیند پاک کردن کش به وجود آمده است، لطفا فایل لاگ را بررسی کنید."
+#~ msgstr ""
+#~ "مشکلی در فرآیند پاک کردن کش به وجود آمده است، لطفا فایل لاگ را بررسی کنید."
 
 #~ msgid "require parameter is missing."
 #~ msgstr "پارامتر ضروری وجود ندارد."
@@ -3648,8 +3686,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ "Automatically purge single post cache when a new comment is inserted into the "
 #~ "database or when a comment is approved or deleted."
 #~ msgstr ""
-#~ "در هنگام تغییرات در بخش دیدگاه‌های مربوط به یک نوشته، کش مربوط به آن صفحه را به "
-#~ "صورت خودکار پاک‌سازی ‌می‌شود."
+#~ "در هنگام تغییرات در بخش دیدگاه‌های مربوط به یک نوشته، کش مربوط به آن صفحه را "
+#~ "به صورت خودکار پاک‌سازی ‌می‌شود."
 
 #~ msgid "Pagination Purge"
 #~ msgstr "پاک‌سازی کش صفحه بندی آرشیو"
@@ -3742,8 +3780,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #~ msgid "Check this item to replace resources by JSDeliver cdn."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه‌ منابع استاتیکی شما با نسخه جی اس دلیور (در صورتی که وجود "
-#~ "داشته باشد) جایگزین می‌شوند."
+#~ "با علامت زدن این گزینه‌ منابع استاتیکی شما با نسخه جی اس دلیور (در صورتی که "
+#~ "وجود داشته باشد) جایگزین می‌شوند."
 
 #~ msgid "Lazyload"
 #~ msgstr "لیزی لود"
@@ -3800,8 +3838,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #~ msgid "Disables gutenberg block library on the front end when not logged in."
 #~ msgstr ""
-#~ "غیرفعال کردن آیکون‌ گوتنربگ در بخش نمایشی سایت و زمانی که کاربر وارد حساب کاربری "
-#~ "نشده است."
+#~ "غیرفعال کردن آیکون‌ گوتنربگ در بخش نمایشی سایت و زمانی که کاربر وارد حساب "
+#~ "کاربری نشده است."
 
 #~ msgid ""
 #~ "Removes WordPress and WooCommerce Password Strength Meter scripts from non "
@@ -3966,15 +4004,15 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "عدم کش کردم بخش ادمین"
 
 #~ msgid ""
-#~ "by default, all back-end URLs are not cached, but if for some circumstances This "
-#~ "option will be ignored if worker mode is enabled your backend pages are still "
-#~ "cached, you can enable this option which will add an additional page rule on "
-#~ "Cloudflare to force cache bypassing for the whole Wordpress backend directly "
-#~ "from Cloudflare."
+#~ "by default, all back-end URLs are not cached, but if for some circumstances "
+#~ "This option will be ignored if worker mode is enabled your backend pages are "
+#~ "still cached, you can enable this option which will add an additional page "
+#~ "rule on Cloudflare to force cache bypassing for the whole Wordpress backend "
+#~ "directly from Cloudflare."
 #~ msgstr ""
-#~ "به صورت پیش‌فرض همه صفحات بخش ادمین سایت، کش نمی‌شوند. اما اگر با مشکل کش شدن بخش "
-#~ "ادمین مواجه شدید، می‌توانید با فعال کردن این گزینه یک قاعده جدید عدم کش شدن به "
-#~ "صورت مستقیم بر روی کلود فلیر تنظیم کنید."
+#~ "به صورت پیش‌فرض همه صفحات بخش ادمین سایت، کش نمی‌شوند. اما اگر با مشکل کش شدن "
+#~ "بخش ادمین مواجه شدید، می‌توانید با فعال کردن این گزینه یک قاعده جدید عدم کش "
+#~ "شدن به صورت مستقیم بر روی کلود فلیر تنظیم کنید."
 
 #~ msgid "Authentication mode is not selected."
 #~ msgstr "نحوه احراز هویت انتخاب نشده است."
@@ -4004,11 +4042,11 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "فعال‌سازی افزایش سرعت"
 
 #~ msgid ""
-#~ "Check to enable all optimization functionality, you can disable each section in "
-#~ "tabs too."
+#~ "Check to enable all optimization functionality, you can disable each section "
+#~ "in tabs too."
 #~ msgstr ""
-#~ "فعال کردن قابلیت بهینه سازی، شما می‌توانید هر بخش را در تب مربوط به خود نیز فعال "
-#~ "یا غیر فعال کنید."
+#~ "فعال کردن قابلیت بهینه سازی، شما می‌توانید هر بخش را در تب مربوط به خود نیز "
+#~ "فعال یا غیر فعال کنید."
 
 #~ msgid "Preloader started successfully"
 #~ msgstr "عملیات پیش بارگیری با موفقیت شروع شد"
@@ -4063,14 +4101,14 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #, fuzzy
 #~| msgid ""
-#~| "Optimization process is currently running: %s success and %s failed of %s page "
-#~| "types completed. (Refresh this page to view progress)"
+#~| "Optimization process is currently running: %s success and %s failed of %s "
+#~| "page types completed. (Refresh this page to view progress)"
 #~ msgid ""
 #~ "Preloader is currently running: %s done and %s remained of %s page types "
 #~ "completed"
 #~ msgstr ""
-#~ "بهینه سازی در حال اجراست: %s پردازش موفق و %s پردازش نا موفق از %s صفحه. (برای "
-#~ "دیدن پیشرفت صفحه را رفرش کنید)"
+#~ "بهینه سازی در حال اجراست: %s پردازش موفق و %s پردازش نا موفق از %s صفحه. "
+#~ "(برای دیدن پیشرفت صفحه را رفرش کنید)"
 
 #~ msgid "Start preloading the pages of your website to speed up their inclusion."
 #~ msgstr "شروع پیش بارگیری صفحات وب‌سایت شما به منظور تسریع بهینه‌ سازی."
@@ -4098,8 +4136,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #, fuzzy
 #~| msgid ""
-#~| "Automatically preload the pages you have purged from Cloudflare cache with this "
-#~| "plugin."
+#~| "Automatically preload the pages you have purged from Cloudflare cache with "
+#~| "this plugin."
 #~ msgid "Automatically preload the pages you have purged."
 #~ msgstr "پیش بارگیری خودکار صفحات که از کلود فلر پاک شده‌اند."
 
@@ -4248,7 +4286,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "اشکالی در فرایند حذف فایل‌ها کش رخ داده است."
 
 #~ msgid "Sorry Background process already running. please wait until finish."
-#~ msgstr "با عرض پوزش پردازش پس زمینه در حال اجرا است. لطفا تا پایان پرداز صبر کنید."
+#~ msgstr ""
+#~ "با عرض پوزش پردازش پس زمینه در حال اجرا است. لطفا تا پایان پرداز صبر کنید."
 
 #~ msgid "Cache files successfully removed"
 #~ msgstr "فایل‌های کش با موفقیت حذف شد"
@@ -4342,7 +4381,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid "Purge Everything"
 #~ msgstr "پاکسازی همه چیز"
 
-#~ msgid "Now you can configure and enable the page cache to speed up this website."
+#~ msgid ""
+#~ "Now you can configure and enable the page cache to speed up this website."
 #~ msgstr "می‌توانید حالت کش یرای بهبود سرعت وب‌سایت خود، تنظیم و فعال کنید."
 
 #~ msgid "Name"
@@ -4372,8 +4412,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to replace resources by JSDeliver cdn."
 #~ msgid "Check this item to replace jquery js by JSDeliver cdn."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه‌ منابع استاتیکی شما با نسخه جی اس دلیور (در صورتی که وجود "
-#~ "داشته باشد) جایگزین می‌شوند."
+#~ "با علامت زدن این گزینه‌ منابع استاتیکی شما با نسخه جی اس دلیور (در صورتی که "
+#~ "وجود داشته باشد) جایگزین می‌شوند."
 
 #~ msgid "Reset All"
 #~ msgstr "بازنشانی همه"
@@ -4732,7 +4772,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #~ msgid "Ask a feedback question, if user rate less than threshold."
 #~ msgstr ""
-#~ "در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده خواهد شد."
+#~ "در صورتی که کاربر کمتر از آستانه امتیاز دهد، یک فرم بازخورد نشان داده خواهد "
+#~ "شد."
 
 #, fuzzy
 #~| msgid "Question"
@@ -4945,7 +4986,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item to enable collection of ip addresses."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #~ msgid "Advanced"
 #~ msgstr "پیشرفته"
@@ -5006,7 +5048,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item to show location on front."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #~ msgid "Markup"
 #~ msgstr "مارکاپ"
@@ -5052,7 +5095,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "پیوند"
 
 #~ msgid "Sorry, you send a Message less than %s hour ago, please try letter."
-#~ msgstr "شما کمتر از %s ساعت پیش یک پیام ارسال کرده‌اید، لطفا بعدا دوباره تلاش کنید."
+#~ msgstr ""
+#~ "شما کمتر از %s ساعت پیش یک پیام ارسال کرده‌اید، لطفا بعدا دوباره تلاش کنید."
 
 #~ msgid "Thank you! You will receive a response as soon as possible."
 #~ msgstr "متشکرم، در کمترین زمان ممکن پاسخ ما را دریافت خواهید کرد."
@@ -5101,7 +5145,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item to remove all posts and terms from database."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #, fuzzy
 #~| msgid "General"
@@ -5308,7 +5353,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item if you want show this item for anonymous users."
 #~ msgid "Check if you want show this attachment in icon list."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، این آیتم برای کاربران ثبت نام نکرده نیز نمایش داده می‌شود."
+#~ "با علامت زدن این گزینه، این آیتم برای کاربران ثبت نام نکرده نیز نمایش داده "
+#~ "می‌شود."
 
 #~ msgid "SEO settings"
 #~ msgstr "تنظیمات سئو"
@@ -5583,7 +5629,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #~ msgid "Check this item to enable mailer functionality."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #~ msgid "Email Address"
 #~ msgstr "پست الکترونیکی"
@@ -5649,7 +5696,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item to enable ATF functionality."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #~ msgid "Enable Head Style"
 #~ msgstr "فعال سازی استایل هد"
@@ -5726,8 +5774,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ "Failed to load Google reCAPTCHA. Please check your internet connection and "
 #~ "reload this page."
 #~ msgstr ""
-#~ "موفق به اجرای ری‌کپچا گوگل نشدیم، لطفا ارتباط اینترنت خود را بررسی کرده و صفحه را "
-#~ "مجدد بارگیری کنید."
+#~ "موفق به اجرای ری‌کپچا گوگل نشدیم، لطفا ارتباط اینترنت خود را بررسی کرده و صفحه "
+#~ "را مجدد بارگیری کنید."
 
 #~ msgid "User response is missing."
 #~ msgstr "پاسخ کاربر به آزمایش یافت نشد."
@@ -5750,7 +5798,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid ""
 #~ "More than one reCAPTCHA has been found in the current form. Please remove all "
 #~ "unnecessary reCAPTCHA fields to make it work properly."
-#~ msgstr "بیشتر از یک آزمایش در فرم جاری یافت شد. لطفا آزمایش‌های اضافی را حذف کنید."
+#~ msgstr ""
+#~ "بیشتر از یک آزمایش در فرم جاری یافت شد. لطفا آزمایش‌های اضافی را حذف کنید."
 
 #~ msgid "reCaptcha v3 test failed"
 #~ msgstr "آزمایش شکست خورد"
@@ -5801,18 +5850,19 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "به استفاده به صورت جهانی"
 
 #~ msgid ""
-#~ "Enable to use reCaptcha when Google is not accessible or blocked in your country."
+#~ "Enable to use reCaptcha when Google is not accessible or blocked in your "
+#~ "country."
 #~ msgstr "اگر مشکلی با اتصال به گوگل در کشور خود دارید، این گزینه را فعال کنید."
 
 #~ msgid "Disabled Submit Button"
 #~ msgstr "غیر فعال کردن دکمه تایید"
 
 #~ msgid ""
-#~ "Enable to keep submit button disabled until user passes the reCaptcha test (for "
-#~ "Version 2)."
+#~ "Enable to keep submit button disabled until user passes the reCaptcha test "
+#~ "(for Version 2)."
 #~ msgstr ""
-#~ "غیر فعال کردن دکمه تایید فرم، تا زمانی که کابر آزمایش ری‌کپچا را انجام دهد (برای "
-#~ "نسخه ۲)."
+#~ "غیر فعال کردن دکمه تایید فرم، تا زمانی که کابر آزمایش ری‌کپچا را انجام دهد "
+#~ "(برای نسخه ۲)."
 
 #~ msgid "Whitelist"
 #~ msgstr "لیست سفید"
@@ -5972,7 +6022,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid "Card"
 #~ msgstr "کارت"
 
-#~ msgid "if you fill this item, we show title and excerpt of selected post in card."
+#~ msgid ""
+#~ "if you fill this item, we show title and excerpt of selected post in card."
 #~ msgstr ""
 #~ "اگر این مورد را پر کنید ، عنوان و گزیده ای از پیام های انتخاب شده را در کارت "
 #~ "نشان می دهیم."
@@ -6061,9 +6112,9 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ "This shortcode used for close %s, no setting available. remember just use %s "
 #~ "after %s. for use this shortcode just press %s button"
 #~ msgstr ""
-#~ "این شورتکد برای بستن %s استفاده می‌شود، هیچ تنظیمی برای این شورتکد وجود ندارد. به "
-#~ "یاد داشته باشید از %s فقط بعد از %s استفاده شود. برای استفاده از این شورتکد فقط "
-#~ "دکمه %s را بزنید"
+#~ "این شورتکد برای بستن %s استفاده می‌شود، هیچ تنظیمی برای این شورتکد وجود ندارد. "
+#~ "به یاد داشته باشید از %s فقط بعد از %s استفاده شود. برای استفاده از این "
+#~ "شورتکد فقط دکمه %s را بزنید"
 
 #~ msgid "Example"
 #~ msgstr "مثال"
@@ -6500,7 +6551,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Enable this option, to show locations to admin in theme."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #~ msgid "Footer"
 #~ msgstr "پاورقی سایت"
@@ -6716,13 +6768,15 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid ""
 #~ "Enable this option to stop receiving notifications when a new user registers."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #, fuzzy
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Enable this option to allow guests to view users profiles."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #, fuzzy
 #~| msgid "Custom Posts"
@@ -6732,9 +6786,11 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #, fuzzy
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid ""
-#~ "Enable this option to prevent users from uploading a custom profile cover image."
+#~ "Enable this option to prevent users from uploading a custom profile cover "
+#~ "image."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #, fuzzy
 #~| msgid "Reset Password"
@@ -7357,7 +7413,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item for better performance."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #, fuzzy
 #~| msgid "Sort order."
@@ -7548,18 +7605,18 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "نمایش جدولی"
 
 #~ msgid ""
-#~ "Image width is too small. Minimum width is %1$s px. Uploaded image width is %2$s "
-#~ "px"
-#~ msgstr ""
-#~ "ابعاد عکس کوچک است. عرض عکس باید حداقل %1$s پیکسل باشد ولی عرض عکس انتخابی شما "
-#~ "%2$s پیکسل است"
-
-#~ msgid ""
-#~ "Image height is too small. Minimum height is %1$s px. Uploaded image height is "
+#~ "Image width is too small. Minimum width is %1$s px. Uploaded image width is "
 #~ "%2$s px"
 #~ msgstr ""
-#~ "ابعاد عکس کوچک است. ارتفاع عکس باید حداقل %1$s پیکسل باشد ولی ارتفاع عکس انتخابی "
+#~ "ابعاد عکس کوچک است. عرض عکس باید حداقل %1$s پیکسل باشد ولی عرض عکس انتخابی "
 #~ "شما %2$s پیکسل است"
+
+#~ msgid ""
+#~ "Image height is too small. Minimum height is %1$s px. Uploaded image height "
+#~ "is %2$s px"
+#~ msgstr ""
+#~ "ابعاد عکس کوچک است. ارتفاع عکس باید حداقل %1$s پیکسل باشد ولی ارتفاع عکس "
+#~ "انتخابی شما %2$s پیکسل است"
 
 #~ msgid "Image minimum width"
 #~ msgstr "حداقل عرض تصاویر"
@@ -7733,7 +7790,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid "Page 2: %s"
 #~ msgstr "صفحه ۲: %s"
 
-#~ msgid "Comment moderation is enabled. Your comment may take some time to appear."
+#~ msgid ""
+#~ "Comment moderation is enabled. Your comment may take some time to appear."
 #~ msgstr "تائید دیدگاه فعال است. دیدگاه شما ممکن است کمی طول بکشد تا ظاهر شود."
 
 #~ msgid "Log File Deleted Successfully"
@@ -7787,7 +7845,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item to turn on caching (Recommended)."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #~ msgid "No Emails"
 #~ msgstr "ایمیلی وجود ندارد"
@@ -7824,7 +7883,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~| msgid "Check this item to enable mailer functionality."
 #~ msgid "Check this item to disable subject field in form."
 #~ msgstr ""
-#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال می‌شود."
+#~ "با علامت زدن این گزینه، ارسال ایمیل با استفاده از سرویس swiftmailer  فعال "
+#~ "می‌شود."
 
 #~ msgid "Labels"
 #~ msgstr "برچسب‌ها"
@@ -7971,15 +8031,15 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgid ""
 #~ "Specify headings to be excluded from appearing in the table of contents.\n"
 #~ "\n"
-#~ "                Separate multiple headings with a pipe |. Use an asterisk * as a "
-#~ "wildcard to match other text.\n"
+#~ "                Separate multiple headings with a pipe |. Use an asterisk * "
+#~ "as a wildcard to match other text.\n"
 #~ "\n"
 #~ "                Note that this is not case sensitive."
 #~ msgstr ""
 #~ "تیترهایی که نمی‌خواهید در فهرست مطالب درج شوند را مستثنی کنید\n"
 #~ "‏\n"
-#~ "\t\t\tتیترهای متعدد را با یک کاراکتر پایپ | از هم جدا کنید. از کاراکتر ستاره * "
-#~ "به منظور تطبیق کاراکتر دلخواه استفاده کنید\n"
+#~ "\t\t\tتیترهای متعدد را با یک کاراکتر پایپ | از هم جدا کنید. از کاراکتر ستاره "
+#~ "* به منظور تطبیق کاراکتر دلخواه استفاده کنید\n"
 #~ "‏\n"
 #~ "\t\t\tتوجه کنید که حساسیتی نسبت به بزرگی و کوچکی کاراکترها وجود ندارد."
 
@@ -7987,11 +8047,11 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ "Restrict generation of the table of contents to pages that match the required "
 #~ "path.\n"
 #~ "\n"
-#~ "                This path is from the root of your site and always begins with a "
-#~ "forward slash."
+#~ "                This path is from the root of your site and always begins "
+#~ "with a forward slash."
 #~ msgstr ""
-#~ "ایجاد فهرست مطالب را محدود به صفحاتی با مسیر زیر کنید آدرس این مسیر نسبت به مسیر "
-#~ "اصلی سایت است و همیشه با یک کاراکتر اسلش ‪/‬ در ابتدا شروع می‌شود."
+#~ "ایجاد فهرست مطالب را محدود به صفحاتی با مسیر زیر کنید آدرس این مسیر نسبت به "
+#~ "مسیر اصلی سایت است و همیشه با یک کاراکتر اسلش ‪/‬ در ابتدا شروع می‌شود."
 
 #~ msgid ""
 #~ "Anchor targets are restricted to alphanumeric characters as per HTML "
@@ -8003,13 +8063,15 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ "                This option normally applies to content written in character "
 #~ "sets other than ASCII."
 #~ msgstr ""
-#~ "با توجه به استاندارد HTML لینک مقصد محدود به کاراکترهای انگلیسی حرف یا عدد است‪.‬\n"
+#~ "با توجه به استاندارد HTML لینک مقصد محدود به کاراکترهای انگلیسی حرف یا عدد "
+#~ "است‪.‬\n"
 #~ "\n"
-#~ "\t\tاگر پس از فیلتر فوق کاراکتری باقی نماند از «پیشوند پیشفرض برای لینک» استفاده "
-#~ "می‌شود. اگر خالی رها کنید از یک عدد ترتیبی به صورت خودکار استفاده خواهد شد.\n"
+#~ "\t\tاگر پس از فیلتر فوق کاراکتری باقی نماند از «پیشوند پیشفرض برای لینک» "
+#~ "استفاده می‌شود. اگر خالی رها کنید از یک عدد ترتیبی به صورت خودکار استفاده "
+#~ "خواهد شد.\n"
 #~ "\n"
-#~ "\t\tاین گزینه معمولا در مورد کاراکترهای غیر اسکی ASCII مانند کاراکترهای یونیکد "
-#~ "UT8 کاربرد دارد."
+#~ "\t\tاین گزینه معمولا در مورد کاراکترهای غیر اسکی ASCII مانند کاراکترهای "
+#~ "یونیکد UT8 کاربرد دارد."
 
 #~ msgid "Top of the content"
 #~ msgstr "در ابتدای محتوای اصلی"
@@ -8170,7 +8232,8 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 #~ msgstr "مبدل تقویم شمسی ووکامرس فعال باشد"
 
 #~ msgid ""
-#~ "Use Context Feature in administrator panel to use RTL direction in LTR Languages"
+#~ "Use Context Feature in administrator panel to use RTL direction in LTR "
+#~ "Languages"
 #~ msgstr "تشخیص خودکار جهت نوشتار، براساس متن ورودی"
 
 #~ msgid "Convert dates in wordpress administrator panel"
