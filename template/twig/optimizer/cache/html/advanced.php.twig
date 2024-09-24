@@ -10,7 +10,7 @@ use {{ use|raw }};
 define('PR_OPTIMIZATION_VERSION', '{{ version|raw }}');
 define('PR_OPTIMIZATION_ADVANCED_CACHE', true);
 
-function opt_advanced_cache_get_path($path) {
+function pr_opt_advanced_cache_get_path($path) {
 
     if (!defined('PR_ENV_SLD')) {
         $baseConfigPath = '{{ base_config_path|raw }}';
@@ -25,8 +25,8 @@ function opt_advanced_cache_get_path($path) {
     return $path;
 }
 
-$cachePath  = opt_advanced_cache_get_path('{{ cache_path|raw }}');
-$configPath = opt_advanced_cache_get_path('{{ config_path|raw }}');
+$cachePath  = pr_opt_advanced_cache_get_path('{{ cache_path|raw }}');
+$configPath = pr_opt_advanced_cache_get_path('{{ config_path|raw }}');
 $vendorPath = '{{ vendor_path|raw }}';
 
 $classes = [

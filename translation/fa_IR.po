@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PMPR Optimization\n"
-"POT-Creation-Date: 2024-09-23 22:58+0330\n"
-"PO-Revision-Date: 2024-09-23 22:59+0330\n"
+"POT-Creation-Date: 2024-09-24 14:36+0330\n"
+"PO-Revision-Date: 2024-09-24 14:39+0330\n"
 "Last-Translator: Farshad Asgharzade <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -63,8 +63,8 @@ msgid "Dashboard"
 msgstr "داشبورد"
 
 #: src/Pmpr/Module/Optimization/Dashboard/Page.php:61
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:520
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:566
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:551
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:597
 msgid "Purge Cache"
 msgstr "پاک‌ سازی کش‌"
 
@@ -205,7 +205,7 @@ msgstr ""
 "شناسایی کنند،تا از فرایند تاخیر در بارگیری مستثنی شوند را تعیین کنید."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Asset/Setting.php:53
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:97
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:98
 msgid "Pattern Or URL"
 msgstr "الگو یا URL"
 
@@ -378,8 +378,8 @@ msgid "Optimize %s"
 msgstr "بهینه سازی %s"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Cache/SpecialPage/Search/Setting.php:22
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:687
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:714
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:718
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:745
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:116
 msgid "Search Page"
 msgstr "صفحه جستجو"
@@ -444,100 +444,100 @@ msgstr "صفحات خاص"
 msgid "Search, 404 and ..."
 msgstr "صفحه جستجو،  صفحه ۴۰۴ و ..."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:37
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:38
 msgid "ATF & BTF"
 msgstr "ATF و BTF"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:43
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:44
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:42
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:895
 msgid "Pattern Cache"
 msgstr "کش الگو"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:44
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:45
 msgid "Pattern-level cache management"
 msgstr "مدیریت کش در سطح الگو"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:49
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:50
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:43
 msgid "Styles"
 msgstr "استایل‌ها"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:52
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:53
 msgid "Extract Critical Style"
 msgstr "استخراج استایل‌ ضروری"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:53
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:54
 msgid "Inactive (downfall FCP & LCP)"
 msgstr "غیر فعال (افت شاخص LCP و FCP)"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:57
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:58
 msgid "Active (improve FCP & LCP)"
 msgstr "فعال (بهبود شاخص FCP و LCP)"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:63
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:64
 msgid "Load Critical Style"
 msgstr "بارگیری استایل‌ ضروری"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:66
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:67
 #, php-format
 msgid "Apart %s"
 msgstr "جداسازی %s"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:67
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:68
 msgid "Increase page load speed"
 msgstr "افزایش سرعت بارگیری صفحه"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:71
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:72
 #, php-format
 msgid "Combine %s"
 msgstr "ادغام %s"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:72
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:73
 #, php-format
 msgid "In case of %s downfall"
 msgstr "در صورت افت %s"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:77
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:78
 msgid "Extra Style"
 msgstr "استایل‌ اضافی"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:78
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:79
 msgid "The content of this option will be added to all extracted critical css."
 msgstr "محتوای این گزینه به همه استایل‌های ضروری استخراج شده اضافه می‌شود."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:83
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:84
 msgid "Remove Unused Style"
 msgstr "حذف استایل‌های بدون استفاده"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:84
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:85
 msgid "None"
 msgstr "هیچکدام"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:85
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:86
 msgid "All Except"
 msgstr "همه به جز"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:86
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:87
 msgid "Remove All"
 msgstr "حذف همه"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:93
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:94
 msgid "Exclude Unused Style"
 msgstr "مستثنی کردن استایل‌ بدون استفاده"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:94
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:95
 msgid "Specify URLs or patters of CSS files to be excluded from remove."
 msgstr ""
 "پیوندها یا الگوهای فایل‌های سی اس اس (CSS) که می‌خواهید از فرایند حذف مستثنی شوند "
 "را تعیین کنید."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:104
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:105
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Plugin/PageBuilder/Elementor/Setting.php:44
 msgid "Delay Style Load"
 msgstr "تاخیر در بارگیری استایل"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:105
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:106
 msgid ""
 "Improves performance by delaying the loading of CSS files until user interaction "
 "(e.g. scroll, click)."
@@ -545,11 +545,11 @@ msgstr ""
 "با تأخیر در بارگیری فایل‌های استایل تا تعامل کاربر (به عنوان مثال پیمایش ، "
 "کلیک) ، عملکرد را بهبود می بخشد."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:111
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:113
 msgid "Purge Pattern Cache"
 msgstr "پاک‌ سازی کش الگو"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:113
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:115
 #, php-format
 msgid ""
 "Select the events that lead to clearing the pattern cache. Re-creating the "
@@ -558,27 +558,27 @@ msgstr ""
 "رخدادهایی که منجر به پاک سازی کش الگو می‌شوند را انتخاب کنید. بازسازی مجدد کش "
 "الگو %s است."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:114
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:116
 msgid "requires a coin payment"
 msgstr "مستلزم پرداخت سکه"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:118
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:120
 msgid "Change Cover or Theme"
 msgstr "تغییر کاور یا پوسته"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:123
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:125
 msgid "Change Widgets of Cover or Theme"
 msgstr "تغییر در ویجت‌های کاور یا پوسته"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:128
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:130
 msgid "Update Cover or Theme"
 msgstr "به روز رسانی کاور یا پوسته"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:132
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:134
 msgid "Update Modules or Plugins"
 msgstr "به روز رسانی ماژول‌ها یا افزونه‌ها"
 
-#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:136
+#: src/Pmpr/Module/Optimization/Optimizer/Cache/VirtualBrowser/Setting.php:138
 msgid "Update Commons"
 msgstr "به روز رسانی زیرساخت‌ها"
 
@@ -657,8 +657,8 @@ msgid "Modules, covers, plugins..."
 msgstr "ماژول‌ها،‌ کاور‌ها،‌ افزونه‌ها..."
 
 #: src/Pmpr/Module/Optimization/Optimizer/Extension/Theme/Setting.php:25
-msgid "Themes"
-msgstr "پوسته‌ها"
+msgid "Theme"
+msgstr "پوسته"
 
 #: src/Pmpr/Module/Optimization/Optimizer/HTML/Cleanup/Setting.php:49
 msgid "Cleanup"
@@ -942,11 +942,11 @@ msgstr "رسانه"
 msgid "Optimize image, vide and ..."
 msgstr "بهینه‌سازی تصویر، ویدیو و ..."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:162
+#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:169
 msgid "Updated successfully."
 msgstr "با موفقیت بروزرسانی شد."
 
-#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:205
+#: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Ajax.php:212
 msgid "LCP item can not be empty."
 msgstr "عنصر LCP نمی‌تواند خالی باشد."
 
@@ -983,7 +983,7 @@ msgid "Device Type"
 msgstr "نوع دستگاه"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Setting.php:48
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:652
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:683
 msgid "Mobile"
 msgstr "موبایل"
 
@@ -992,7 +992,7 @@ msgid "Tablet"
 msgstr "تبلت"
 
 #: src/Pmpr/Module/Optimization/Optimizer/Preprocess/Setting.php:50
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:651
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:682
 msgid "Desktop"
 msgstr "دسکتاپ"
 
@@ -1293,7 +1293,7 @@ msgid "Special Page"
 msgstr "صفحه ویژه"
 
 #: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:87
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:695
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:726
 msgid "Archive"
 msgstr "آرشیو"
 
@@ -1482,49 +1482,71 @@ msgstr "آیا مایل به مشاهده لیست الگو‌ها هستید؟"
 msgid "Ge Patterns List"
 msgstr "رفتن به لیست الگو‌ها"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:491
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:373
+msgid "Delete Orphan Elected Pages"
+msgstr "حذف صفحات منتخب فاقد الگو"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:376
+msgid "Delete Orphan(without pattern) Elected Pages"
+msgstr "حذف صفحات منتخب فاقد الگو"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:378
+msgid ""
+"As a result of removing some patterns, the elected pages connected to it have no "
+"patterns."
+msgstr "در نتیجه حذف برخی از الگوها، صفحات منتخب متصل به آن فاقد الگو شده‌اند."
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:379
+msgid "Do you want to remove the elected pages that have no pattern?"
+msgstr "آیا مایل به حذف صفحات منتخب فاقد الگو هستید؟"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:385
+msgid "Yes, be deleted"
+msgstr "بله، حذف شوند"
+
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:522
 msgid "Publish Date"
 msgstr "تاریخ انتشار"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:492
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:523
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:74
 #: src/Pmpr/Module/Optimization/ThirdParty/CDN/Cloudflare/Setting.php:271
 msgid "Cache Status"
 msgstr "وضعیت کش"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:494
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:525
 msgid "Elected Page Title"
 msgstr "عنوان صفحه منتخب"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:554
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:559
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:585
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:590
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:653
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:660
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:664
 msgid "Re-Optimize"
 msgstr "بهینه سازی مجدد"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:556
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:587
 msgid "Are you sure about re-optimize elected page?"
 msgstr "آیا از بهینه سازی مجدد صفحه منتخب مطمئن هستید؟"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:624
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:655
 #, php-format
 msgid "%s %s at %s"
 msgstr "%s %s ساعت %s"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:684
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:711
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:715
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:742
 #: src/Pmpr/Module/Optimization/PageManager/Model/Pattern.php:115
 msgid "Home Page"
 msgstr "صفحه اصلی"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:690
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:717
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:721
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:748
 msgid "Notfound Page"
 msgstr "صفحه ۴۰۴"
 
-#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:840
+#: src/Pmpr/Module/Optimization/PageManager/Model/Page.php:871
 msgid "Date of Election"
 msgstr "تاریخ انتخاب"
 
@@ -5226,11 +5248,6 @@ msgstr "هزینه ارائه خدمات برای مشتریان با پلن ه�
 
 #~ msgid "Custom field updated."
 #~ msgstr "فیلد سفارشی به روز شد."
-
-#, fuzzy
-#~| msgid "Successfully deleted."
-#~ msgid "Custom field deleted."
-#~ msgstr "با موفقیت حذف شد."
 
 #~ msgid "%s published."
 #~ msgstr "%s منشتر شد."
