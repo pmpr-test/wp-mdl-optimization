@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6705177f65977             |
+    |             670d002186f7a             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Ecommerce; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Common; class Woocommerce extends Common { }
+ namespace Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Ecommerce; use Pmpr\Module\Optimization\Container; class Woocommerce extends Container { }

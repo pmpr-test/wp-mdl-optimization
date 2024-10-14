@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6705177f65977             |
+    |             670d002186f7a             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Extension; use Pmpr\Module\Optimization\Optimizer\Extension\Cover\Cover; use Pmpr\Module\Optimization\Optimizer\Extension\Module\Module; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Plugin; use Pmpr\Module\Optimization\Optimizer\Extension\Theme\Theme; class Extension extends Common { public function mameiwsayuyquoeq() { Plugin::symcgieuakksimmu(); if (!$this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { goto ksmmosiwmsousgkg; } Component::symcgieuakksimmu(); ksmmosiwmsousgkg: } }
+ namespace Pmpr\Module\Optimization\Optimizer\Extension; use Pmpr\Module\Optimization\Container; use Pmpr\Module\Optimization\Optimizer\Extension\Cover\Cover; use Pmpr\Module\Optimization\Optimizer\Extension\Module\Module; use Pmpr\Module\Optimization\Optimizer\Extension\Plugin\Plugin; use Pmpr\Module\Optimization\Optimizer\Extension\Theme\Theme; class Extension extends Container { public function mameiwsayuyquoeq() { Plugin::symcgieuakksimmu(); if ($this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->goecwaaykqoaaagg()) { Component::symcgieuakksimmu(); } } }

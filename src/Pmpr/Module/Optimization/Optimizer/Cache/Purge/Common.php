@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6705177f65977             |
+    |             670d002186f7a             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Optimization\Optimizer\Cache\Purge; use Pmpr\Module\Optimization\Traits\HelperTrait; use Pmpr\Module\Optimization\Optimizer\Cache\Common as BaseClass; abstract class Common extends BaseClass { use HelperTrait; }
+ namespace Pmpr\Module\Optimization\Optimizer\Cache\Purge; use Pmpr\Module\Optimization\Container; use Pmpr\Module\Optimization\Traits\HelperTrait; abstract class Common extends Container { use HelperTrait; }
