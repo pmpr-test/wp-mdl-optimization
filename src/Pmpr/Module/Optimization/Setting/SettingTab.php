@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67581596084c7             |
+    |             67581ccae80ff             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Setting; class SettingTab { }
