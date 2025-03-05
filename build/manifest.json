@@ -1,11 +1,11 @@
 {
-  "delay.js": "/js/delay.6cLdJPt4f.js",
-  "lazyload.js": "/js/lazyload.6cLdJPt4f.js",
-  "postprocess.js": "/js/postprocess.6cLdJPt4f.js",
-  "lcp-extractor.js": "/js/lcp-extractor.6cLdJPt4f.js",
-  "backend.css": "/css/backend.6cLdJPt4f.css",
-  "backend.js": "/js/backend.6cLdJPt4f.js",
-  "dashboard.js": "/js/dashboard.6cLdJPt4f.js",
-  "subscription.js": "/js/subscription.6cLdJPt4f.js",
-  "preprocess.js": "/js/preprocess.6cLdJPt4f.js"
+  "delay.js": "/js/delay.xLTBfcR_3.js",
+  "lazyload.js": "/js/lazyload.xLTBfcR_3.js",
+  "postprocess.js": "/js/postprocess.xLTBfcR_3.js",
+  "lcp-extractor.js": "/js/lcp-extractor.xLTBfcR_3.js",
+  "backend.css": "/css/backend.xLTBfcR_3.css",
+  "backend.js": "/js/backend.xLTBfcR_3.js",
+  "dashboard.js": "/js/dashboard.xLTBfcR_3.js",
+  "subscription.js": "/js/subscription.xLTBfcR_3.js",
+  "preprocess.js": "/js/preprocess.xLTBfcR_3.js"
 }
