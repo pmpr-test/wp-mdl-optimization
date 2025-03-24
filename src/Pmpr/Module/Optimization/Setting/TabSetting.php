@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67e16668aac69             |
+    |             67e16935c302e             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Setting; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Tab; use Pmpr\Module\Optimization\Traits\AlertTrait; class TabSetting extends Tab { use AlertTrait; public function ikcgmcycisiccyuc() { $this->setting = Setting::symcgieuakksimmu(); } }
