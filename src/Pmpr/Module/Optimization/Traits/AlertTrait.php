@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800fbb9b4545             |
+    |             6801062cd4b37             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Traits; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Module\Optimization\Subscription\Engine; trait AlertTrait { public function kciwwegaqoqscqeo() { return $this->caokeucsksukesyo()->wgqqgewcmcemoewo()->cuoygaaeqeqcuggu(IconInterface::uwykoocikuusgwyw, ['class' => 'icon-sm'], [Constants::uociqugwegocyuue => Constants::eskykugsoyoiukae]); } public function symouyowemaacayu() : string { $wkaqekwwgqsqwcoi = $this->kciwwegaqoqscqeo(); $uamcoiueqaamsqma = sprintf(__('Options that %s.', PR__MDL__OPTIMIZATION), $this->kyccegouqwyemkwq(__('consume coins', PR__MDL__OPTIMIZATION))); return $wkaqekwwgqsqwcoi . $uamcoiueqaamsqma; } public function kyccegouqwyemkwq($meqocwsecsywiiqs) { return $this->caokeucsksukesyo()->wmkogisswkckmeua()->igiawkoqiogocsau([Constants::waguuiqqgsysuukq => Constants::myiysugguwsqoaqc, Constants::squoamkioomemiyi => Constants::smkwuwawwaqyimcq, Constants::qescuiwgsyuikume => __('Service Fee', PR__MDL__OPTIMIZATION), Constants::PREFIX => 'coin_usage_options', Constants::ssmskyqgcmeiayco => $this->caokeucsksukesyo()->wgqqgewcmcemoewo()->iaaacsuskiakkwui(__('The cost of providing services for subscribers with different panels.', PR__MDL__OPTIMIZATION)) . Engine::symcgieuakksimmu()->gwcqgaaameykykci(), Constants::kekekeusyqkouowm => [Constants::OK]], $meqocwsecsywiiqs); } }
