@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68865c5dbd5ac             |
+    |             6886683f26f14             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Traits; use Pmpr\Module\Optimization\Subscription\Engine; trait SubscriptionEngineTrait { public function cqscwmqsgomkogoq() : Engine { return Engine::symcgieuakksimmu(); } }
