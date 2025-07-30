@@ -1,2 +1,2 @@
-/*! For license information please see subscription.M6N5uKyOl.js.LICENSE.txt */
+/*! For license information please see subscription.fn_BIqu7f.js.LICENSE.txt */
 !function(){const e=PRHelper.getHTML(),t=PRHelper.getHook(),n=PRHelper.getTool(),o=PRHelper.getSetting(),l=PRHelper.getRequest(),a=PRBackendHelper.getModal();t.bubbling("click",(t=>{let r=e.getTarget(t);e.setElementActivity(r),l.ajax(o.getOption("ajax.sync_data")).addNonce().onSuccess((e=>{a.show({content:e,type:"primary",onClose:()=>n.reload()})})).onError((e=>{a.show({content:e,type:"danger"})})).onFinally((()=>{e.setElementActivity(r,!0)})).send()}),".pr-opt-sync-data")}();
