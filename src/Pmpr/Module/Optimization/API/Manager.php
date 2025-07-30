@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6889feab0a8bc             |
+    |             6889ff6ebd2ec             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\API; use Pmpr\Common\Foundation\API\API; use Pmpr\Common\Foundation\Interfaces\Constants; class Manager extends API { public function __construct() { $this->domain = $this->saeuwmoyaekkseok('/optimization-manager'); $this->ueakuaywsqiooygo(40)->iwoewaiwqaisaagy()->kiaqywwoysssqgig(Constants::aciemiuuwgysykom, $this->caokeucsksukesyo()->cqusmgskowmesgcg()->ooouaomcuuakuaii()); parent::__construct(); } public function wskswuomqkmqkkmm() { $sogksuscggsicmac = $this->eqkieiagqmugguew('/remote/get-apps'); if (!is_wp_error($sogksuscggsicmac)) { $sogksuscggsicmac = $this->caokeucsksukesyo()->ywqgcuymeiswqyqc()->get($sogksuscggsicmac, Constants::uiwqcumqkgikqyue); } return $sogksuscggsicmac; } }
