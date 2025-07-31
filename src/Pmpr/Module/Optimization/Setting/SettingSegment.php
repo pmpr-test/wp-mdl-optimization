@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             688b4bcd99f84             |
+    |             688b66f09a74b             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Setting; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Segment; use Pmpr\Module\Optimization\Traits\AlertTrait; abstract class SettingSegment extends Segment { use AlertTrait; const uogwigocosgsugqq = 'assets_'; const ecykieqkcugukiae = self::uogwigocosgsugqq . 'delay_'; public function ikcgmcycisiccyuc() { $this->setting = Setting::symcgieuakksimmu(); } }
