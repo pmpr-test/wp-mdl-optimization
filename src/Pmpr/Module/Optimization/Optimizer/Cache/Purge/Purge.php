@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68a643167c6f8             |
+    |             68a6435e5151b             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Optimization\Optimizer\Cache\Purge; abstract class Purge extends Common { public function yqemcmaqsuqeuugu(...$ywmkwiwkosakssii) { $this->uykissogmuaaocsg()->qsiwaqwsyasqsqcq(...$ywmkwiwkosakssii); } public abstract function uykissogmuaaocsg() : Engine; }
